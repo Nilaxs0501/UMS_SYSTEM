@@ -1,0 +1,344 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\C#\\UMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\c#\\ums\\windowsformsapp1\\repositories\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\repositories\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\repositories\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\repositories\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\models\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\models\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\models\\timetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\models\\timetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\models\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\models\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\controllers\\markcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\markcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\controllers\\timetablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\timetablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\C#\\UMS\\windowsformsapp1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\WindowsFormsApp1.csproj|Z:\\C#\\UMS\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mark.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Mark.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\Mark.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Mark.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Models\\Mark.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:52:01.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Course.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\Course.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Course.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:49:51.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataBaseManager.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAgwEAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:17:22.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBconnection.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Repositories\\DBconnection.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Repositories\\DBconnection.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Repositories\\DBconnection.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Repositories\\DBconnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:17:52.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\Subject.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Subject.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Models\\Subject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:53:27.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TimeTable.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\TimeTable.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\TimeTable.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\TimeTable.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Models\\TimeTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:54:32.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Users.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\Users.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Users.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:55:07.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Room.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\Room.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Room.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Models\\Room.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:52:37.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Lecturer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\Lecturer.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Lecturer.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Models\\Lecturer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:51:31.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\StudentController.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:59:12.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MarkController.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\MarkController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\MarkController.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\MarkController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\MarkController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:58:29.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TimeTableController.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\TimeTableController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\TimeTableController.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\TimeTableController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\TimeTableController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:59:59.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\LoginController.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:58:06.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LecturerController.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\LecturerController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\LecturerController.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\LecturerController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\LecturerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:57:44.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Program.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:56:26.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Student.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\Student.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Student.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:54:00.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Exam.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\Exam.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Models\\Exam.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Models\\Exam.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:50:29.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\ExamController.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\ExamController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:09:55.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "ToolTip": "Z:\\C#\\UMS\\WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:09:27.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "Z:\\C#\\UMS\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "Z:\\C#\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:59:04.648Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
