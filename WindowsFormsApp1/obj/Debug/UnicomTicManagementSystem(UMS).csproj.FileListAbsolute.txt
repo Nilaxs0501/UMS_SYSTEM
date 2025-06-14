@@ -1,0 +1,7 @@
+Z:\C#\UMS\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.AssemblyReference.cache
+Z:\C#\UMS\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+Z:\C#\UMS\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.LoginForm.resources
+Z:\C#\UMS\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.GenerateResource.cache
+Z:\C#\UMS\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.CoreCompileInputs.cache
+Z:\C#\UMS\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.Main.resources
+Z:\C#\UMS\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.Login.resources
