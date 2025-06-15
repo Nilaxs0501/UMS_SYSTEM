@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Repositories;
+using WindowsFormsApp1.Views;
 
 namespace WindowsFormsApp1
 {
@@ -20,7 +21,7 @@ namespace WindowsFormsApp1
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Mainmenu());
+            Application.Run(new Login());
         }
     }
 }

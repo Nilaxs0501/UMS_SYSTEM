@@ -19,73 +19,88 @@ namespace WindowsFormsApp1.Repositories
                 var cmd = conn.CreateCommand();
 
                 cmd.CommandText = @"
-                        CREATE TABLE IF NOT EXISTS Users (
-                        UserID INTEGER PRIMARY KEY,
-                        Username TEXT NOT NULL,
+                    CREATE TABLE IF NOT EXISTS Users (
+                        UserID INTEGER PRIMARY KEY AUTOINCREMENT,
+                        Username TEXT NOT NULL UNIQUE,
                         Password TEXT NOT NULL,
-                        Role TEXT NOT NULL
+                        Role TEXT NOT NULL CHECK (Role IN ('Admin', 'Staff', 'Lecturer', 'Student'))
+                        
+
                     );
 
                     CREATE TABLE IF NOT EXISTS Courses (
-                        CourseID INTEGER PRIMARY KEY,
-                        CourseName TEXT NOT NULL
+                        CourseID INTEGER PRIMARY KEY AUTOINCREMENT,
+                        CourseName TEXT NOT NULL UNIQUE
                     );
 
                     CREATE TABLE IF NOT EXISTS Subjects (
-                        SubjectID INTEGER PRIMARY KEY,
+                        SubjectID INTEGER PRIMARY KEY AUTOINCREMENT,
                         SubjectName TEXT NOT NULL,
-                        CourseID INTEGER,
+                        CourseID INTEGER NOT NULL,
                         FOREIGN KEY(CourseID) REFERENCES Courses(CourseID)
                     );
 
                     CREATE TABLE IF NOT EXISTS Lecturers (
-                        LecturerID INTEGER PRIMARY KEY,
+                        LecturerID INTEGER PRIMARY KEY AUTOINCREMENT,
                         LecturerName TEXT NOT NULL,
-                        SubjectID INTEGER,
+                        SubjectID INTEGER NOT NULL,
                         FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID)
                     );
 
                     CREATE TABLE IF NOT EXISTS Students (
-                        StudentID INTEGER PRIMARY KEY,
+                        StudentID INTEGER PRIMARY KEY AUTOINCREMENT,
                         StudentName TEXT NOT NULL,
-                        CourseID INTEGER,
+                        CourseID INTEGER NOT NULL,
                         FOREIGN KEY(CourseID) REFERENCES Courses(CourseID)
                     );
 
                     CREATE TABLE IF NOT EXISTS Exams (
-                        ExamID INTEGER PRIMARY KEY,
+                        ExamID INTEGER PRIMARY KEY AUTOINCREMENT,
                         ExamName TEXT NOT NULL,
-                        SubjectID INTEGER,
+                        SubjectID INTEGER NOT NULL,
                         FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID)
                     );
 
                     CREATE TABLE IF NOT EXISTS Marks (
-                        MarkID INTEGER PRIMARY KEY,
-                        StudentID INTEGER,
-                        ExamID INTEGER,
-                        Score INTEGER,
+                        MarkID INTEGER PRIMARY KEY AUTOINCREMENT,
+                        StudentID INTEGER NOT NULL,
+                        ExamID INTEGER NOT NULL,
+                        Score INTEGER CHECK (Score BETWEEN 0 AND 100),
                         FOREIGN KEY(StudentID) REFERENCES Students(StudentID),
                         FOREIGN KEY(ExamID) REFERENCES Exams(ExamID)
                     );
 
                     CREATE TABLE IF NOT EXISTS Rooms (
-                        RoomID INTEGER PRIMARY KEY,
-                        RoomName TEXT NOT NULL,
+                        RoomID INTEGER PRIMARY KEY AUTOINCREMENT,
+                        RoomName TEXT NOT NULL UNIQUE,
                         RoomType TEXT NOT NULL
                     );
 
                     CREATE TABLE IF NOT EXISTS Timetables (
-                        TimetableID INTEGER PRIMARY KEY,
-                        SubjectID INTEGER,
+                        TimetableID INTEGER PRIMARY KEY AUTOINCREMENT,
+                        SubjectID INTEGER NOT NULL,
                         TimeSlot TEXT NOT NULL,
-                        RoomID INTEGER,
+                        RoomID INTEGER NOT NULL,
                         FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID),
                         FOREIGN KEY(RoomID) REFERENCES Rooms(RoomID)
                     );
 
+                        
 
 
                 ";
                 cmd.ExecuteNonQuery();
+
+                 var insertCmd = conn.CreateCommand();
+                    insertCmd.CommandText = @"
+                        INSERT OR IGNORE INTO Users (Username, Password, Role)
+                        VALUES ('admin', 'admin123', 'Admin');
+                    ";
+                    insertCmd.ExecuteNonQuery();
+
+
             }
+
+        }    
+    }
 }
