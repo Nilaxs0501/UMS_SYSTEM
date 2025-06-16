@@ -20,3 +20,17 @@ C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTi.
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.AssemblyReference.cache
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.Main.resources
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.Login.resources
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.GenerateResource.cache
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.CoreCompileInputs.cache
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTi.7E2AEBE3.Up2Date
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+Z:\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

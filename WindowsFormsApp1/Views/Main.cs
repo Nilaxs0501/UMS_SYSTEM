@@ -16,6 +16,7 @@ namespace WindowsFormsApp1.Views
         public Main(Users user)
         {
             InitializeComponent();
+           
         }
        
         

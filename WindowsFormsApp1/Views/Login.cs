@@ -21,8 +21,8 @@ namespace WindowsFormsApp1.Views
 
         private void Login_Load(object sender, EventArgs e)
         {
-         
-        
+
+            cmbRole.Items.Add("Select your Role");
             cmbRole.Items.Add("Admin");
             cmbRole.Items.Add("Staff");
             cmbRole.Items.Add("Lecturer");
@@ -71,6 +71,11 @@ namespace WindowsFormsApp1.Views
         private void btn_exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void cmbRole_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
