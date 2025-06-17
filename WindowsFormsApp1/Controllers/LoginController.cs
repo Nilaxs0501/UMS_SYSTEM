@@ -29,7 +29,7 @@ namespace WindowsFormsApp1.Controllers
                         {
                             return new Users
                             {
-                                UserId = Convert.ToInt32(reader["UserID"]),
+                                UserID = Convert.ToInt32(reader["UserID"]),
                                 UserName = reader["Username"].ToString(),
                                 Password = reader["Password"].ToString(),
                                 Role = reader["Role"].ToString()

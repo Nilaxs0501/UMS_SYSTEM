@@ -68,14 +68,16 @@ namespace WindowsFormsApp1.Views
 
         }
 
-        private void btn_exit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+        
 
         private void cmbRole_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

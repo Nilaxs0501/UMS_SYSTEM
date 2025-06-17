@@ -21,9 +21,12 @@ namespace WindowsFormsApp1.Repositories
                 cmd.CommandText = @"
                     CREATE TABLE IF NOT EXISTS Users (
                         UserID INTEGER PRIMARY KEY AUTOINCREMENT,
+                        Name TEXT NOT NULL,
+                        Address TEXT NOT NULL,
                         Username TEXT NOT NULL UNIQUE,
                         Password TEXT NOT NULL,
                         Role TEXT NOT NULL CHECK (Role IN ('Admin', 'Staff', 'Lecturer', 'Student'))
+                        
                         
 
                     );
@@ -93,8 +96,8 @@ namespace WindowsFormsApp1.Repositories
 
                  var insertCmd = conn.CreateCommand();
                     insertCmd.CommandText = @"
-                        INSERT OR IGNORE INTO Users (Username, Password, Role)
-                        VALUES ('admin', 'admin123', 'Admin');
+                        INSERT OR IGNORE INTO Users (Username, Password, Role,Name,Address)
+                        VALUES ('admin', 'admin123', 'Admin','Admin','jaffna');
                     ";
                     insertCmd.ExecuteNonQuery();
 
