@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 using WindowsFormsApp1.Controllers;
 using WindowsFormsApp1.Models;
 
@@ -14,16 +16,21 @@ namespace WindowsFormsApp1.Views
 {
     public partial class UsersForm : Form
     {
+
+        private int selectedUserId = -1; 
+      
         public UsersForm()
         {
             InitializeComponent();
             LoadUsers();
         }
-        int selectedUserId = 0;
+         
         private void LoadUsers()
         {
             dataGridView1.DataSource = UsersController.GetAllUsers();
             dataGridView1.Columns["password"].Visible = false;
+          
+            selectedUserId = -1;
         }
 
 
@@ -35,10 +42,16 @@ namespace WindowsFormsApp1.Views
             cmbRole.Items.Add("Staff");
             cmbRole.Items.Add("Lecturer");
             cmbRole.Items.Add("Student");
+            cmbRole.SelectedIndex = 0;
 
-            cmbRole.SelectedIndex = 0; 
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView1.MultiSelect = false;
 
-            LoadUsers(); 
+            
+            dataGridView1.SelectionChanged += dataGridView1_SelectionChanged;
+
+            LoadUsers();  // Load after wiring the event
+            ClearFields();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -47,10 +60,15 @@ namespace WindowsFormsApp1.Views
         
             try
             {
+                if (string.IsNullOrWhiteSpace(txtName.Text) || string.IsNullOrWhiteSpace(txtAddress.Text))
+                {
+                    MessageBox.Show("Please enter both Name and Address.");
+                    return;
+                }
                 Users user = new Users
                 {
                     UserName = txtUsername.Text,
-                    Password = txtPassword.Text,
+                    Password = "user123",
                     Role = cmbRole.SelectedItem.ToString(),
                     Name = txtName.Text,
                     Address = txtAddress.Text
@@ -81,17 +99,21 @@ namespace WindowsFormsApp1.Views
         
             try
             {
-                if (selectedUserId == 0)
+                if (selectedUserId == -1)
                 {
                     MessageBox.Show("Please select a user to update.");
                     return;
                 }
-
+                if (string.IsNullOrWhiteSpace(txtName.Text) || string.IsNullOrWhiteSpace(txtAddress.Text))
+                {
+                    MessageBox.Show("Please enter both Name and Address.");
+                    return;
+                }
                 Users user = new Users
                 {
                     UserID = selectedUserId,
                     UserName = txtUsername.Text,
-                    Password = txtPassword.Text,
+               
                     Role = cmbRole.SelectedItem.ToString(),
                     Name = txtName.Text,
                     Address = txtAddress.Text
@@ -101,7 +123,7 @@ namespace WindowsFormsApp1.Views
                 {
                     MessageBox.Show("User updated successfully");
                     LoadUsers();
-                    ClearFields();
+                   
                 }
                 else
                 {
@@ -122,17 +144,19 @@ namespace WindowsFormsApp1.Views
         
             try
             {
-                if (selectedUserId == 0)
+                if (selectedUserId == -1)
                 {
                     MessageBox.Show("Please select a user to delete.");
                     return;
                 }
-
-                if (UsersController.DeleteUser(selectedUserId))
+                var confirmResult = MessageBox.Show("Are you sure to delete this student?", "Confirm Delete", MessageBoxButtons.YesNo);
+                if (confirmResult == DialogResult.Yes)
+                   
                 {
+                    UsersController.DeleteUser(selectedUserId);
                     MessageBox.Show("User deleted successfully");
                     LoadUsers();
-                    ClearFields();
+                    
                 }
                 else
                 {
@@ -149,24 +173,46 @@ namespace WindowsFormsApp1.Views
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0)
-            {
-                selectedUserId = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["UserID"].Value);
-                txtUsername.Text = dataGridView1.Rows[e.RowIndex].Cells["UserName"].Value.ToString();
-                txtPassword.Text = dataGridView1.Rows[e.RowIndex].Cells["Password"].Value.ToString();
-                cmbRole.Text = dataGridView1.Rows[e.RowIndex].Cells["Role"].Value.ToString();
-                txtName.Text = dataGridView1.Rows[e.RowIndex].Cells["Name"].Value.ToString();
-                txtAddress.Text = dataGridView1.Rows[e.RowIndex].Cells["Address"].Value.ToString();
-            }
+
+            //if (dataGridView1.SelectedRows.Count > 0)
+            //{
+            //    var selectedRow = dataGridView1.SelectedRows[0];
+
+            //    selectedUserId = Convert.ToInt32(selectedRow.Cells["UserID"].Value);
+            //    txtUsername.Text = selectedRow.Cells["UserName"].Value.ToString();
+            //    cmbRole.SelectedItem = selectedRow.Cells["Role"].Value.ToString();
+            //    txtName.Text = selectedRow.Cells["Name"].Value.ToString();
+            //    txtAddress.Text = selectedRow.Cells["Address"].Value.ToString();
+            //}
+
+
         }
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            
+                if (dataGridView1.SelectedRows.Count > 0)
+                {
+                    var selectedRow = dataGridView1.SelectedRows[0];
+                    if (selectedRow.Cells["UserID"].Value != null)
+                    {
+                        selectedUserId = Convert.ToInt32(selectedRow.Cells["UserID"].Value);
+                        txtUsername.Text = selectedRow.Cells["UserName"].Value.ToString();
+                        cmbRole.SelectedItem = selectedRow.Cells["Role"].Value.ToString();
+                        txtName.Text = selectedRow.Cells["Name"].Value.ToString();
+                        txtAddress.Text = selectedRow.Cells["Address"].Value.ToString();
+                    }
+                }
+            
+        }
+
         private void ClearFields()
         {
             txtUsername.Clear();
             txtPassword.Clear();
-            txtName.Clear();
-            txtAddress.Clear();
+            txtName.Text = "";
+            txtAddress.Text = "";
             cmbRole.SelectedIndex = 0;
-            selectedUserId = 0;
+            selectedUserId = -1;
         }
         private void btnLogout_Click(object sender, EventArgs e)
         {
@@ -191,6 +237,11 @@ namespace WindowsFormsApp1.Views
         }
 
         private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
         {
 
         }

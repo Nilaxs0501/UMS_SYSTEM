@@ -24,7 +24,7 @@ namespace WindowsFormsApp1.Repositories
                         Name TEXT NOT NULL,
                         Address TEXT NOT NULL,
                         Username TEXT NOT NULL UNIQUE,
-                        Password TEXT NOT NULL,
+                        Password ,
                         Role TEXT NOT NULL CHECK (Role IN ('Admin', 'Staff', 'Lecturer', 'Student'))
                         
                         

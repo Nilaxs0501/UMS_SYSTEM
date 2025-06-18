@@ -93,5 +93,10 @@ namespace WindowsFormsApp1.Views
         {
             LoadForm(new ChangePasswordForm());
         }
+
+        private void btn_lecturer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
