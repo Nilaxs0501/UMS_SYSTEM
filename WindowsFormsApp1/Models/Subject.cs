@@ -8,9 +8,9 @@ namespace WindowsFormsApp1.Models
 {
     internal class Subject
     {
-        public int SubjectId { get; set; }
+        public int SubjectID { get; set; }
         public string SubjectName { get; set; }
-        public int CourseId { get; set; }
+        public int CourseID { get; set; }
 
     }
 }

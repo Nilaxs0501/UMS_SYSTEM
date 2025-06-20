@@ -8,9 +8,11 @@ namespace WindowsFormsApp1.Models
 {
     internal class Exam
     {
-        public int ExamId { get; set; }
+        public int ExamID { get; set; }
         public string ExamName { get; set; }
-        public int SubjectId { get; set; }
+        public int SubjectID { get; set; }
+        public string ExamDate { get; set; }
+        public string ExamTime { get; set; }
 
 
     }

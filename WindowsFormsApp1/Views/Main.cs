@@ -14,6 +14,7 @@ namespace WindowsFormsApp1.Views
     public partial class Main : Form
     {
         private Users currentUser;
+        public string role_;
         public Main(Users user)
         {
             InitializeComponent();
@@ -24,14 +25,15 @@ namespace WindowsFormsApp1.Views
         }
         private void ConfigureRoleAccess(string role)
         {
-            btnStudents.Visible = role == "Admin" || role == "Staff";
-            btnLecturer.Visible = role == "Admin" || role == "Staff";
-            btnTimetable.Visible = role != "Staff"; 
-            btnExam.Visible = role != "Student";  
+            btnStudents.Visible = role == "Admin" || role == "Staff" || role == "Student";
+            btnLecturer.Visible = role == "Admin" || role == "Staff" || role == "Lecturer";
+            btnExam.Visible = role == "Student" || role == "Admin" ||  role == "Lecturer";
             btnMarks.Visible = role == "Lecturer" || role == "Admin" || role == "Staff";
             btnAttendence.Visible = role == "Admin" || role == "Staff";
+            btnTimetable.Visible = true;
             btnChangePassword.Visible = true; 
             btnAddUser.Visible = true;
+            role_=role;
             
         }
 
@@ -49,13 +51,6 @@ namespace WindowsFormsApp1.Views
             this.panel_DashBoard.Tag = form;
             form.Show();
         }
-
-
-
-
-
-
-
 
         private void btn_user_Click(object sender, EventArgs e)
         {
@@ -107,6 +102,12 @@ namespace WindowsFormsApp1.Views
         private void btnCourse_Click(object sender, EventArgs e)
         {
 
+            //CourseSubjectManagementForm form = new CourseSubjectManagementForm(role_);
+            //LoadForm(form);
+            //form.Show();
+            LoadForm(new CourseSubjectManagementForm( role_));
         }
+
     }
+    
 }

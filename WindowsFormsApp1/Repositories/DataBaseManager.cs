@@ -60,6 +60,8 @@ namespace WindowsFormsApp1.Repositories
                     CREATE TABLE IF NOT EXISTS Exams (
                         ExamID INTEGER PRIMARY KEY AUTOINCREMENT,
                         ExamName TEXT NOT NULL,
+                        ExamDate TEXT NOT NULL, 
+                        ExamTime TEXT NOT NULL, 
                         SubjectID INTEGER NOT NULL,
                         FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID)
                     );

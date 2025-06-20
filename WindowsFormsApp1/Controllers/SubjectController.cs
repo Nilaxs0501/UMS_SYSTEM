@@ -9,25 +9,26 @@ using WindowsFormsApp1.Repositories;
 
 namespace WindowsFormsApp1.Controllers
 {
-    internal class CourseController
+    internal class SubjectController
     {
+       
         
-        
-            public static List<Course> GetAllCourses()
+            public static List<Subject> GetAllSubjects()
             {
-                var list = new List<Course>();
+                var list = new List<Subject>();
                 using (var conn = DBconnection.GetConnection())
-            {
-                    string query = "SELECT * FROM Courses";
+                {
+                    string query = "SELECT * FROM Subjects";
                     using (var cmd = new SQLiteCommand(query, conn))
                     using (var reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
                         {
-                            list.Add(new Course
+                            list.Add(new Subject
                             {
-                                CourseID = Convert.ToInt32(reader["CourseID"]),
-                                CourseName = reader["CourseName"].ToString()
+                                SubjectID = Convert.ToInt32(reader["SubjectID"]),
+                                SubjectName = reader["SubjectName"].ToString(),
+                                CourseID = Convert.ToInt32(reader["CourseID"])
                             });
                         }
                     }
@@ -35,41 +36,43 @@ namespace WindowsFormsApp1.Controllers
                 return list;
             }
 
-            public static bool AddCourse(Course course)
+            public static bool AddSubject(Subject subject)
             {
                 using (var conn = DBconnection.GetConnection())
                 {
-                    string query = "INSERT INTO Courses (CourseName) VALUES (@name)";
+                    string query = "INSERT INTO Subjects (SubjectName, CourseID) VALUES (@name, @courseId)";
                     using (var cmd = new SQLiteCommand(query, conn))
                     {
-                        cmd.Parameters.AddWithValue("@name", course.CourseName);
+                        cmd.Parameters.AddWithValue("@name", subject.SubjectName);
+                        cmd.Parameters.AddWithValue("@courseId", subject.CourseID);
                         return cmd.ExecuteNonQuery() > 0;
                     }
                 }
             }
 
-            public static bool UpdateCourse(Course course)
+            public static bool UpdateSubject(Subject subject)
             {
                 using (var conn = DBconnection.GetConnection())
                 {
-                    string query = "UPDATE Courses SET CourseName = @name WHERE CourseID = @id";
+                    string query = "UPDATE Subjects SET SubjectName = @name, CourseID = @courseId WHERE SubjectID = @id";
                     using (var cmd = new SQLiteCommand(query, conn))
                     {
-                        cmd.Parameters.AddWithValue("@name", course.CourseName);
-                        cmd.Parameters.AddWithValue("@id", course.CourseID);
+                        cmd.Parameters.AddWithValue("@name", subject.SubjectName);
+                        cmd.Parameters.AddWithValue("@courseId", subject.CourseID);
+                        cmd.Parameters.AddWithValue("@id", subject.SubjectID);
                         return cmd.ExecuteNonQuery() > 0;
                     }
                 }
             }
 
-            public static bool DeleteCourse(int courseId)
+            public static bool DeleteSubject(int subjectId)
             {
                 using (var conn = DBconnection.GetConnection())
                 {
-                    string query = "DELETE FROM Courses WHERE CourseID = @id";
+                    string query = "DELETE FROM Subjects WHERE SubjectID = @id";
                     using (var cmd = new SQLiteCommand(query, conn))
                     {
-                        cmd.Parameters.AddWithValue("@id", courseId);
+                        cmd.Parameters.AddWithValue("@id", subjectId);
                         return cmd.ExecuteNonQuery() > 0;
                     }
                 }

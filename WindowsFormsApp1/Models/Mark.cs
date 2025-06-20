@@ -8,10 +8,9 @@ namespace WindowsFormsApp1.Models
 {
     internal class Mark
     {
-        public int MarkId { get; set; }
-
-        public int StudentId { get; set; }
-        public int ExamId { get; set; }
+        public int MarkID { get; set; }
+        public int StudentID { get; set; }
+        public int ExamID { get; set; }
         public int Score { get; set; }
 
     }

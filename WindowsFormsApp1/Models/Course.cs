@@ -9,7 +9,7 @@ namespace WindowsFormsApp1.Models
     internal class Course
     {
 
-        public int CourseId { get; set; }
-        public string courseName { get; set; }
+        public int CourseID { get; set; }
+        public string CourseName { get; set; }
     }
 }

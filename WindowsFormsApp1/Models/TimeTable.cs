@@ -8,8 +8,8 @@ namespace WindowsFormsApp1.Models
 {
     internal class TimeTable
     {
-        public int TimetableId { get; set; }
-        public int SubjectId { get; set; }
+        public int TimetableID { get; set; }
+        public int SubjectID { get; set; }
         public int RoomId { get; set; }
         public string TimeSlot { get; set; }
 

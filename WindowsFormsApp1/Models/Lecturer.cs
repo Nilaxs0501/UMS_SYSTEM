@@ -8,10 +8,10 @@ namespace WindowsFormsApp1.Models
 {
     internal class Lecturer
     {
-        public int LecturerId { get; set; }
+        public int LecturerID { get; set; }
         public string LecturerName { get; set; }
 
-        public int SubjectId { get; set; }
+        public int SubjectID { get; set; }
 
     }
 }

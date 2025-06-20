@@ -8,8 +8,8 @@ namespace WindowsFormsApp1.Models
 {
     internal class Student
     {
-        public int StudentId { get; set; }
+        public int StudentID { get; set; }
         public string StudentName { get; set; }
-        public int CourseId { get; set; }
+        public int CourseID { get; set; }
     }
 }
