@@ -14,9 +14,13 @@ namespace WindowsFormsApp1.Views
 {
     public partial class Login : Form
     {
+       
+
         public Login()
         {
             InitializeComponent();
+           
+       
         }
 
         private void Login_Load(object sender, EventArgs e)
@@ -78,6 +82,21 @@ namespace WindowsFormsApp1.Views
         private void btnLogout_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

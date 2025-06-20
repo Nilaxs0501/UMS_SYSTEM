@@ -70,6 +70,11 @@
     <Compile Include="Models\Users.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Repositories\DataBaseManager.cs" />
     <Compile Include="Repositories\DBconnection.cs" />
     <Compile Include="Views\ChangePasswordForm.cs">
@@ -77,6 +82,12 @@
     </Compile>
     <Compile Include="Views\ChangePasswordForm.Designer.cs">
       <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CourseSubjectManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CourseSubjectManagementForm.Designer.cs">
+      <DependentUpon>CourseSubjectManagementForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Main.cs">
       <SubType>Form</SubType>
@@ -90,12 +101,6 @@
     <Compile Include="Views\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\SubMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\SubMain.Designer.cs">
-      <DependentUpon>SubMain.cs</DependentUpon>
-    </Compile>
     <Compile Include="Views\UsersForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,25 +109,20 @@
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Views\ChangePasswordForm.resx">
       <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CourseSubjectManagementForm.resx">
+      <DependentUpon>CourseSubjectManagementForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\SubMain.resx">
-      <DependentUpon>SubMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\UsersForm.resx">
       <DependentUpon>UsersForm.cs</DependentUpon>
@@ -146,6 +146,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\long logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer login-bro %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer login-amico %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inbox cleanup-rafiki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Update-rafiki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add User-pana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image Jun 19, 2025, 07_45_22 PM1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />

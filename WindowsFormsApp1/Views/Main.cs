@@ -13,10 +13,26 @@ namespace WindowsFormsApp1.Views
 {
     public partial class Main : Form
     {
+        private Users currentUser;
         public Main(Users user)
         {
             InitializeComponent();
-           
+            currentUser = user;
+            lblWelcome.Text = $"Welcome {user.UserName} ({user.Role})";
+            ConfigureRoleAccess(user.Role);
+
+        }
+        private void ConfigureRoleAccess(string role)
+        {
+            btnStudents.Visible = role == "Admin" || role == "Staff";
+            btnLecturer.Visible = role == "Admin" || role == "Staff";
+            btnTimetable.Visible = role != "Staff"; 
+            btnExam.Visible = role != "Student";  
+            btnMarks.Visible = role == "Lecturer" || role == "Admin" || role == "Staff";
+            btnAttendence.Visible = role == "Admin" || role == "Staff";
+            btnChangePassword.Visible = true; 
+            btnAddUser.Visible = true;
+            
         }
 
         public void LoadForm(object formObj)
@@ -40,11 +56,6 @@ namespace WindowsFormsApp1.Views
 
 
 
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btn_user_Click(object sender, EventArgs e)
         {
@@ -81,13 +92,7 @@ namespace WindowsFormsApp1.Views
 
        
 
-        private void btnNextpage_Click_1(object sender, EventArgs e)
-        {
-            this.Hide();
-            var Main2 = new SubMain();
-            Main2.ShowDialog();
-            this.Close();
-        }
+        
 
         private void btn_changePassword_Click(object sender, EventArgs e)
         {
@@ -95,6 +100,11 @@ namespace WindowsFormsApp1.Views
         }
 
         private void btn_lecturer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCourse_Click(object sender, EventArgs e)
         {
 
         }

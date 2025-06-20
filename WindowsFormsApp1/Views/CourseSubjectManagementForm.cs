@@ -7,21 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WindowsFormsApp1.Models;
 
 namespace WindowsFormsApp1.Views
 {
-    public partial class SubMain : Form
+    public partial class CourseSubjectManagementForm : Form
     {
-        public SubMain()
+        public CourseSubjectManagementForm()
         {
             InitializeComponent();
         }
-       
-        private void btnExit_Click(object sender, EventArgs e)
+
+        private void tabCourse_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-            
+
         }
     }
 }

@@ -245,6 +245,11 @@ namespace WindowsFormsApp1.Views
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
