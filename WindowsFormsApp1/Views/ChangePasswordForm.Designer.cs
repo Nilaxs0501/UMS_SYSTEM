@@ -40,9 +40,9 @@
             this.txtConfirmPassword = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.chkshowCPassword = new System.Windows.Forms.CheckBox();
+            this.chkshowNPassword = new System.Windows.Forms.CheckBox();
+            this.chkshowCoPassword = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -106,7 +106,7 @@
             // 
             this.btnChangePassword.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangePassword.Location = new System.Drawing.Point(662, 415);
-            this.btnChangePassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChangePassword.Margin = new System.Windows.Forms.Padding(2);
             this.btnChangePassword.Name = "btnChangePassword";
             this.btnChangePassword.Size = new System.Drawing.Size(72, 35);
             this.btnChangePassword.TabIndex = 5;
@@ -118,7 +118,7 @@
             // 
             this.txtCUsername.Font = new System.Drawing.Font("Imprint MT Shadow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCUsername.Location = new System.Drawing.Point(640, 98);
-            this.txtCUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCUsername.Margin = new System.Windows.Forms.Padding(2);
             this.txtCUsername.Name = "txtCUsername";
             this.txtCUsername.Size = new System.Drawing.Size(154, 24);
             this.txtCUsername.TabIndex = 6;
@@ -127,7 +127,7 @@
             // 
             this.txtCPassword.Font = new System.Drawing.Font("Imprint MT Shadow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCPassword.Location = new System.Drawing.Point(640, 158);
-            this.txtCPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtCPassword.Name = "txtCPassword";
             this.txtCPassword.PasswordChar = '*';
             this.txtCPassword.Size = new System.Drawing.Size(154, 24);
@@ -137,7 +137,7 @@
             // 
             this.txtNewPassword.Font = new System.Drawing.Font("Imprint MT Shadow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNewPassword.Location = new System.Drawing.Point(640, 215);
-            this.txtNewPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNewPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtNewPassword.Name = "txtNewPassword";
             this.txtNewPassword.PasswordChar = '*';
             this.txtNewPassword.Size = new System.Drawing.Size(154, 24);
@@ -147,7 +147,7 @@
             // 
             this.txtConfirmPassword.Font = new System.Drawing.Font("Imprint MT Shadow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtConfirmPassword.Location = new System.Drawing.Point(640, 271);
-            this.txtConfirmPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtConfirmPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtConfirmPassword.Name = "txtConfirmPassword";
             this.txtConfirmPassword.PasswordChar = '*';
             this.txtConfirmPassword.Size = new System.Drawing.Size(154, 24);
@@ -158,7 +158,7 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(314, 517);
             this.panel1.TabIndex = 10;
@@ -168,42 +168,45 @@
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.Computer_login_amico__1_;
             this.pictureBox1.Location = new System.Drawing.Point(2, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(310, 514);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // checkBox1
+            // chkshowCPassword
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(799, 160);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(38, 17);
-            this.checkBox1.TabIndex = 11;
-            this.checkBox1.Text = "👁️";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkshowCPassword.AutoSize = true;
+            this.chkshowCPassword.Location = new System.Drawing.Point(799, 160);
+            this.chkshowCPassword.Name = "chkshowCPassword";
+            this.chkshowCPassword.Size = new System.Drawing.Size(38, 17);
+            this.chkshowCPassword.TabIndex = 11;
+            this.chkshowCPassword.Text = "👁️";
+            this.chkshowCPassword.UseVisualStyleBackColor = true;
+            this.chkshowCPassword.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // checkBox2
+            // chkshowNPassword
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(800, 218);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(38, 17);
-            this.checkBox2.TabIndex = 12;
-            this.checkBox2.Text = "👁️";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chkshowNPassword.AutoSize = true;
+            this.chkshowNPassword.Location = new System.Drawing.Point(800, 218);
+            this.chkshowNPassword.Name = "chkshowNPassword";
+            this.chkshowNPassword.Size = new System.Drawing.Size(38, 17);
+            this.chkshowNPassword.TabIndex = 12;
+            this.chkshowNPassword.Text = "👁️";
+            this.chkshowNPassword.UseVisualStyleBackColor = true;
+            this.chkshowNPassword.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
-            // checkBox3
+            // chkshowCoPassword
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(800, 273);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(38, 17);
-            this.checkBox3.TabIndex = 13;
-            this.checkBox3.Text = "👁️";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.chkshowCoPassword.AutoSize = true;
+            this.chkshowCoPassword.Location = new System.Drawing.Point(800, 273);
+            this.chkshowCoPassword.Name = "chkshowCoPassword";
+            this.chkshowCoPassword.Size = new System.Drawing.Size(38, 17);
+            this.chkshowCoPassword.TabIndex = 13;
+            this.chkshowCoPassword.Text = "👁️";
+            this.chkshowCoPassword.UseVisualStyleBackColor = true;
+            this.chkshowCoPassword.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // ChangePasswordForm
             // 
@@ -211,9 +214,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(878, 517);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.chkshowCoPassword);
+            this.Controls.Add(this.chkshowNPassword);
+            this.Controls.Add(this.chkshowCPassword);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtConfirmPassword);
             this.Controls.Add(this.txtNewPassword);
@@ -226,7 +229,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ChangePasswordForm";
             this.Text = "ChangePasswordForm";
             this.panel1.ResumeLayout(false);
@@ -250,8 +253,8 @@
         private System.Windows.Forms.TextBox txtConfirmPassword;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox chkshowCPassword;
+        private System.Windows.Forms.CheckBox chkshowNPassword;
+        private System.Windows.Forms.CheckBox chkshowCoPassword;
     }
 }

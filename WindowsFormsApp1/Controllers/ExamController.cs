@@ -15,13 +15,14 @@ namespace WindowsFormsApp1.Controllers
         {
             using (var conn = DBconnection.GetConnection())
             {
-                string query = "INSERT INTO Exams (ExamName, SubjectID, ExamDate, ExamTime) VALUES (@name, @subjectId, @date, @time)";
+                string query = "INSERT INTO Exams (ExamName, SubjectID, ExamDate, ExamStartTime,ExamEndTime) VALUES (@name, @subjectId, @date, @StartTime,@EndTime)";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@name", exam.ExamName);
                     cmd.Parameters.AddWithValue("@subjectId", exam.SubjectID);
                     cmd.Parameters.AddWithValue("@date", exam.ExamDate);
-                    cmd.Parameters.AddWithValue("@time", exam.ExamTime);
+                    cmd.Parameters.AddWithValue("@time", exam.ExamStartTime);
+                    cmd.Parameters.AddWithValue("@time", exam.ExamEndTime);
                     return cmd.ExecuteNonQuery() > 0;
                 }
             }
@@ -32,9 +33,7 @@ namespace WindowsFormsApp1.Controllers
             var list = new List<Exam>();
             using (var conn = DBconnection.GetConnection())
             {
-                string query = @"SELECT e.ExamID, e.ExamName, e.SubjectID, e.ExamDate, e.ExamTime
-                                 FROM Exams e
-                                 JOIN Subjects s ON e.SubjectID = s.SubjectID";
+                string query = "SELECT * FROM Exams";
                 using (var cmd = new SQLiteCommand(query, conn))
                 using (var reader = cmd.ExecuteReader())
                 {
@@ -46,7 +45,8 @@ namespace WindowsFormsApp1.Controllers
                             ExamName = reader["ExamName"].ToString(),
                             SubjectID = Convert.ToInt32(reader["SubjectID"]),
                             ExamDate = reader["ExamDate"].ToString(),
-                            ExamTime = reader["ExamTime"].ToString()
+                            ExamStartTime = reader["ExamStartTime"].ToString(),
+                            ExamEndTime = reader["ExamEndTime"].ToString()
                         });
                     }
                 }
@@ -58,13 +58,14 @@ namespace WindowsFormsApp1.Controllers
         {
             using (var conn = DBconnection.GetConnection())
             {
-                string query = "UPDATE Exams SET ExamName=@name, SubjectID=@subjectId, ExamDate=@date, ExamTime=@time WHERE ExamID=@id";
+                string query = "UPDATE Exams SET ExamName=@name, SubjectID=@subjectId, ExamDate=@date, ExamStartTime=@StartTime ,ExamEndTime=@EndTime  WHERE ExamID=@id";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@name", exam.ExamName);
                     cmd.Parameters.AddWithValue("@subjectId", exam.SubjectID);
                     cmd.Parameters.AddWithValue("@date", exam.ExamDate);
-                    cmd.Parameters.AddWithValue("@time", exam.ExamTime);
+                    cmd.Parameters.AddWithValue("@StartTime", exam.ExamStartTime);
+                    cmd.Parameters.AddWithValue("@EndTime", exam.ExamEndTime);
                     cmd.Parameters.AddWithValue("@id", exam.ExamID);
                     return cmd.ExecuteNonQuery() > 0;
                 }

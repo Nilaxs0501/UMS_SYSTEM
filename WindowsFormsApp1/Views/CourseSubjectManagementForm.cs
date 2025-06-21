@@ -77,6 +77,11 @@ namespace WindowsFormsApp1.Views
             {
                 MessageBox.Show("Failed to add course.");
             }
+            if (CourseController.CourseExists(txtCourseName.Text.Trim()))
+            {
+                MessageBox.Show("Course name already exists.");
+                return;
+            }
         }
 
         private void dataGridViewCourse_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -109,6 +114,7 @@ namespace WindowsFormsApp1.Views
                 LoadCourses();
                 LoadCourseDropdown();
                 selectedCourseId = -1;
+                dataGridViewCourse.ClearSelection();
             }
             else
             {
@@ -131,6 +137,7 @@ namespace WindowsFormsApp1.Views
                 LoadCourses();
                 LoadCourseDropdown();
                 selectedCourseId = -1;
+                dataGridViewCourse.ClearSelection();
             }
             else
             {
@@ -175,7 +182,17 @@ namespace WindowsFormsApp1.Views
             {
                 MessageBox.Show("Failed to add subject.");
             }
+
+           
+            if (SubjectController.SubjectExists(txtSubjectName.Text.Trim(), Convert.ToInt32(cmbCourse.SelectedValue)))
+            {
+                MessageBox.Show("This subject already exists for the selected course.");
+                return;
+            }
+
         }
+
+
 
         private void dataGridViewSubject_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -208,6 +225,7 @@ namespace WindowsFormsApp1.Views
                 txtSubjectName.Clear();
                 LoadSubjects();
                 selectedSubjectId = -1;
+                dataGridViewSubject.ClearSelection();
             }
             else
             {
@@ -229,6 +247,7 @@ namespace WindowsFormsApp1.Views
                 txtSubjectName.Clear();
                 LoadSubjects();
                 selectedSubjectId = -1;
+                dataGridViewSubject.ClearSelection();
             }
             else
             {

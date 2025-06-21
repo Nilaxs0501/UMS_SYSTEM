@@ -42,6 +42,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.chkPassword = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -55,7 +56,7 @@
             this.lbl_username.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lbl_username.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_username.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl_username.Location = new System.Drawing.Point(328, 40);
+            this.lbl_username.Location = new System.Drawing.Point(314, 40);
             this.lbl_username.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_username.Name = "lbl_username";
             this.lbl_username.Size = new System.Drawing.Size(167, 33);
@@ -67,7 +68,7 @@
             // 
             this.lbl_password.BackColor = System.Drawing.SystemColors.ControlLight;
             this.lbl_password.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_password.Location = new System.Drawing.Point(328, 99);
+            this.lbl_password.Location = new System.Drawing.Point(314, 99);
             this.lbl_password.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_password.Name = "lbl_password";
             this.lbl_password.Size = new System.Drawing.Size(167, 32);
@@ -79,7 +80,7 @@
             // 
             this.txt_username.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txt_username.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_username.Location = new System.Drawing.Point(520, 40);
+            this.txt_username.Location = new System.Drawing.Point(497, 40);
             this.txt_username.Margin = new System.Windows.Forms.Padding(2);
             this.txt_username.Multiline = true;
             this.txt_username.Name = "txt_username";
@@ -91,7 +92,7 @@
             // 
             this.txt_password.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txt_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_password.Location = new System.Drawing.Point(520, 99);
+            this.txt_password.Location = new System.Drawing.Point(497, 96);
             this.txt_password.Margin = new System.Windows.Forms.Padding(2);
             this.txt_password.Multiline = true;
             this.txt_password.Name = "txt_password";
@@ -183,6 +184,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.chkPassword);
             this.panel3.Controls.Add(this.panel2);
             this.panel3.Controls.Add(this.btnLogout);
             this.panel3.Controls.Add(this.cmbRole);
@@ -220,6 +222,17 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
+            // 
+            // chkPassword
+            // 
+            this.chkPassword.AutoSize = true;
+            this.chkPassword.Location = new System.Drawing.Point(690, 110);
+            this.chkPassword.Name = "chkPassword";
+            this.chkPassword.Size = new System.Drawing.Size(38, 17);
+            this.chkPassword.TabIndex = 9;
+            this.chkPassword.Text = "👁️";
+            this.chkPassword.UseVisualStyleBackColor = true;
+            this.chkPassword.CheckedChanged += new System.EventHandler(this.chkPassword_CheckedChanged);
             // 
             // Login
             // 
@@ -264,5 +277,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.CheckBox chkPassword;
     }
 }

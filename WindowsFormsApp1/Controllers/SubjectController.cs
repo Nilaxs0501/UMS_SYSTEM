@@ -77,7 +77,20 @@ namespace WindowsFormsApp1.Controllers
                     }
                 }
             }
-        
+
+        public static bool SubjectExists(string subjectName, int courseId)
+        {
+            using (var conn = DBconnection.GetConnection())
+            {
+                string query = "SELECT COUNT(*) FROM Subjects WHERE SubjectName = @name AND CourseID = @courseId";
+                using (var cmd = new SQLiteCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@name", subjectName);
+                    cmd.Parameters.AddWithValue("@courseId", courseId);
+                    return Convert.ToInt32(cmd.ExecuteScalar()) > 0;
+                }
+            }
+        }
 
     }
 }

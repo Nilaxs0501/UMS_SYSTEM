@@ -51,6 +51,48 @@ namespace WindowsFormsApp1.Views
                 MessageBox.Show("Incorrect current username or password.");
             }
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkshowCPassword.Checked)
+            {
+                // Show password
+                txtCPassword.PasswordChar = '\0';  // Removes masking
+            }
+            else
+            {
+                // Hide password
+                txtCPassword.PasswordChar = '*';  // Masks with '*'
+            }
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkshowNPassword.Checked)
+            {
+                // Show password
+                txtNewPassword.PasswordChar = '\0';  // Removes masking
+            }
+            else
+            {
+                // Hide password
+                txtNewPassword.PasswordChar = '*';  // Masks with '*'
+            }
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkshowCoPassword.Checked)
+            {
+                // Show password
+                txtConfirmPassword.PasswordChar = '\0';  // Removes masking
+            }
+            else
+            {
+                // Hide password
+                txtConfirmPassword.PasswordChar = '*';  // Masks with '*'
+            }
+        }
     }
     
 }

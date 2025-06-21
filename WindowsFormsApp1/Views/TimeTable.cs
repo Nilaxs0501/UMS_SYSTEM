@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1.Views
 {
-    public partial class ExamMarkManageMent : Form
+    public partial class TimeTable : Form
     {
-        public ExamMarkManageMent()
+        public TimeTable()
         {
             InitializeComponent();
-        }
-
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

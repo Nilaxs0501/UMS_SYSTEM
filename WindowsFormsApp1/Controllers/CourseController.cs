@@ -74,7 +74,19 @@ namespace WindowsFormsApp1.Controllers
                     }
                 }
             }
-        
+        public static bool CourseExists(string courseName)
+        {
+            using (var conn = DBconnection.GetConnection())
+            {
+                string query = "SELECT COUNT(*) FROM Courses WHERE CourseName = @name";
+                using (var cmd = new SQLiteCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@name", courseName);
+                    return Convert.ToInt32(cmd.ExecuteScalar()) > 0;
+                }
+            }
+        }
+
 
     }
 }

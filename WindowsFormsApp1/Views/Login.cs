@@ -98,6 +98,20 @@ namespace WindowsFormsApp1.Views
         {
 
         }
+
+        private void chkPassword_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkPassword.Checked)
+            {
+                // Show password
+                txt_password.PasswordChar = '\0';  // Removes masking
+            }
+            else
+            {
+                // Hide password
+               txt_password.PasswordChar = '*';  // Masks with '*'
+            }
+        }
     }
 }
 

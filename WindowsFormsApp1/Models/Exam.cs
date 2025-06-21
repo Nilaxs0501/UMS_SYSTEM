@@ -12,7 +12,9 @@ namespace WindowsFormsApp1.Models
         public string ExamName { get; set; }
         public int SubjectID { get; set; }
         public string ExamDate { get; set; }
-        public string ExamTime { get; set; }
+        public string ExamStartTime { get; set; }
+        public string ExamEndTime { get; set; }
+
 
 
     }

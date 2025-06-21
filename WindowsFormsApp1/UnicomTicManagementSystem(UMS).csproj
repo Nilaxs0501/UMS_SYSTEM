@@ -96,6 +96,12 @@
     <Compile Include="Views\ExamMarkManageMent.Designer.cs">
       <DependentUpon>ExamMarkManageMent.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\LecturerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\LecturerForm.Designer.cs">
+      <DependentUpon>LecturerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,12 @@
     </Compile>
     <Compile Include="Views\StudentForm.Designer.cs">
       <DependentUpon>StudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TimeTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\TimeTable.Designer.cs">
+      <DependentUpon>TimeTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\UsersForm.cs">
       <SubType>Form</SubType>
