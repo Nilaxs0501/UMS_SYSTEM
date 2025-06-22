@@ -7,8 +7,6 @@ Z:\C#\UMS\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.Main.resources
 Z:\C#\UMS\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.Login.resources
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.AssemblyReference.cache
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
-C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.Main.resources
-C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.Login.resources
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.GenerateResource.cache
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.CoreCompileInputs.cache
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
@@ -106,3 +104,10 @@ Z:\New folder (3)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 Z:\New folder (3)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 Z:\New folder (3)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ExamMarkManageMent.resources
 Z:\New folder (3)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.StudentForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ChangePasswordForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.CourseSubjectManagementForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.StudentForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.UsersForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ExamMarkManageMentForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.MainForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.LoginForm.resources

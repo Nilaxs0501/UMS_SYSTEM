@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1.Views
 {
-    partial class TimeTable
+    partial class TimeTableForm
     {
         /// <summary>
         /// Required designer variable.

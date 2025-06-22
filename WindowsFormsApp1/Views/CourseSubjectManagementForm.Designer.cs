@@ -62,20 +62,20 @@
             this.Subject.Controls.Add(this.tabSubject);
             this.Subject.Font = new System.Drawing.Font("Imprint MT Shadow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Subject.Location = new System.Drawing.Point(1, 2);
-            this.Subject.Margin = new System.Windows.Forms.Padding(2);
+            this.Subject.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Subject.Name = "Subject";
             this.Subject.SelectedIndex = 0;
-            this.Subject.Size = new System.Drawing.Size(862, 474);
+            this.Subject.Size = new System.Drawing.Size(1149, 583);
             this.Subject.TabIndex = 0;
             // 
             // tabCourse
             // 
             this.tabCourse.Controls.Add(this.grpCourse);
-            this.tabCourse.Location = new System.Drawing.Point(4, 28);
-            this.tabCourse.Margin = new System.Windows.Forms.Padding(2);
+            this.tabCourse.Location = new System.Drawing.Point(4, 33);
+            this.tabCourse.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabCourse.Name = "tabCourse";
-            this.tabCourse.Padding = new System.Windows.Forms.Padding(2);
-            this.tabCourse.Size = new System.Drawing.Size(854, 442);
+            this.tabCourse.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabCourse.Size = new System.Drawing.Size(1141, 546);
             this.tabCourse.TabIndex = 0;
             this.tabCourse.Text = "Course";
             this.tabCourse.UseVisualStyleBackColor = true;
@@ -89,11 +89,11 @@
             this.grpCourse.Controls.Add(this.btnAddCourse);
             this.grpCourse.Controls.Add(this.txtCourseName);
             this.grpCourse.Controls.Add(this.label1);
-            this.grpCourse.Location = new System.Drawing.Point(5, 5);
-            this.grpCourse.Margin = new System.Windows.Forms.Padding(2);
+            this.grpCourse.Location = new System.Drawing.Point(7, 6);
+            this.grpCourse.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpCourse.Name = "grpCourse";
-            this.grpCourse.Padding = new System.Windows.Forms.Padding(2);
-            this.grpCourse.Size = new System.Drawing.Size(849, 433);
+            this.grpCourse.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grpCourse.Size = new System.Drawing.Size(1132, 533);
             this.grpCourse.TabIndex = 0;
             this.grpCourse.TabStop = false;
             this.grpCourse.Text = "Manage Course";
@@ -102,17 +102,20 @@
             // dataGridViewCourse
             // 
             this.dataGridViewCourse.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewCourse.Location = new System.Drawing.Point(58, 251);
+            this.dataGridViewCourse.Location = new System.Drawing.Point(77, 309);
+            this.dataGridViewCourse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewCourse.Name = "dataGridViewCourse";
-            this.dataGridViewCourse.Size = new System.Drawing.Size(343, 150);
+            this.dataGridViewCourse.RowHeadersWidth = 51;
+            this.dataGridViewCourse.Size = new System.Drawing.Size(457, 185);
             this.dataGridViewCourse.TabIndex = 5;
             this.dataGridViewCourse.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCourse_CellContentClick);
             // 
             // btnDeleteCourse
             // 
-            this.btnDeleteCourse.Location = new System.Drawing.Point(329, 167);
+            this.btnDeleteCourse.Location = new System.Drawing.Point(362, 255);
+            this.btnDeleteCourse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDeleteCourse.Name = "btnDeleteCourse";
-            this.btnDeleteCourse.Size = new System.Drawing.Size(86, 36);
+            this.btnDeleteCourse.Size = new System.Drawing.Size(115, 44);
             this.btnDeleteCourse.TabIndex = 4;
             this.btnDeleteCourse.Text = "Delete";
             this.btnDeleteCourse.UseVisualStyleBackColor = true;
@@ -120,9 +123,10 @@
             // 
             // btnUpdateCourse
             // 
-            this.btnUpdateCourse.Location = new System.Drawing.Point(193, 166);
+            this.btnUpdateCourse.Location = new System.Drawing.Point(213, 255);
+            this.btnUpdateCourse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUpdateCourse.Name = "btnUpdateCourse";
-            this.btnUpdateCourse.Size = new System.Drawing.Size(86, 37);
+            this.btnUpdateCourse.Size = new System.Drawing.Size(115, 46);
             this.btnUpdateCourse.TabIndex = 3;
             this.btnUpdateCourse.Text = "Update";
             this.btnUpdateCourse.UseVisualStyleBackColor = true;
@@ -130,9 +134,10 @@
             // 
             // btnAddCourse
             // 
-            this.btnAddCourse.Location = new System.Drawing.Point(58, 166);
+            this.btnAddCourse.Location = new System.Drawing.Point(77, 255);
+            this.btnAddCourse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddCourse.Name = "btnAddCourse";
-            this.btnAddCourse.Size = new System.Drawing.Size(86, 37);
+            this.btnAddCourse.Size = new System.Drawing.Size(115, 46);
             this.btnAddCourse.TabIndex = 2;
             this.btnAddCourse.Text = "Add";
             this.btnAddCourse.UseVisualStyleBackColor = true;
@@ -141,29 +146,31 @@
             // txtCourseName
             // 
             this.txtCourseName.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCourseName.Location = new System.Drawing.Point(235, 75);
+            this.txtCourseName.Location = new System.Drawing.Point(431, 103);
+            this.txtCourseName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCourseName.Name = "txtCourseName";
-            this.txtCourseName.Size = new System.Drawing.Size(166, 32);
+            this.txtCourseName.Size = new System.Drawing.Size(220, 38);
             this.txtCourseName.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Imprint MT Shadow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(63, 83);
+            this.label1.Location = new System.Drawing.Point(84, 102);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 28);
+            this.label1.Size = new System.Drawing.Size(339, 35);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Course Name";
+            this.label1.Text = " Enter the Course Name :";
             // 
             // tabSubject
             // 
             this.tabSubject.Controls.Add(this.grpSubject);
-            this.tabSubject.Location = new System.Drawing.Point(4, 28);
-            this.tabSubject.Margin = new System.Windows.Forms.Padding(2);
+            this.tabSubject.Location = new System.Drawing.Point(4, 33);
+            this.tabSubject.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabSubject.Name = "tabSubject";
-            this.tabSubject.Padding = new System.Windows.Forms.Padding(2);
-            this.tabSubject.Size = new System.Drawing.Size(854, 442);
+            this.tabSubject.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabSubject.Size = new System.Drawing.Size(1141, 546);
             this.tabSubject.TabIndex = 1;
             this.tabSubject.Text = "Subject";
             this.tabSubject.UseVisualStyleBackColor = true;
@@ -178,9 +185,11 @@
             this.grpSubject.Controls.Add(this.label3);
             this.grpSubject.Controls.Add(this.txtSubjectName);
             this.grpSubject.Controls.Add(this.label2);
-            this.grpSubject.Location = new System.Drawing.Point(7, 5);
+            this.grpSubject.Location = new System.Drawing.Point(9, 6);
+            this.grpSubject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.grpSubject.Name = "grpSubject";
-            this.grpSubject.Size = new System.Drawing.Size(847, 434);
+            this.grpSubject.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grpSubject.Size = new System.Drawing.Size(1129, 534);
             this.grpSubject.TabIndex = 0;
             this.grpSubject.TabStop = false;
             this.grpSubject.Text = "Manage Subject";
@@ -188,17 +197,20 @@
             // dataGridViewSubject
             // 
             this.dataGridViewSubject.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewSubject.Location = new System.Drawing.Point(74, 243);
+            this.dataGridViewSubject.Location = new System.Drawing.Point(99, 299);
+            this.dataGridViewSubject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewSubject.Name = "dataGridViewSubject";
-            this.dataGridViewSubject.Size = new System.Drawing.Size(393, 150);
+            this.dataGridViewSubject.RowHeadersWidth = 51;
+            this.dataGridViewSubject.Size = new System.Drawing.Size(524, 185);
             this.dataGridViewSubject.TabIndex = 7;
             this.dataGridViewSubject.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewSubject_CellContentClick);
             // 
             // btnDeleteSubject
             // 
-            this.btnDeleteSubject.Location = new System.Drawing.Point(431, 176);
+            this.btnDeleteSubject.Location = new System.Drawing.Point(488, 252);
+            this.btnDeleteSubject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDeleteSubject.Name = "btnDeleteSubject";
-            this.btnDeleteSubject.Size = new System.Drawing.Size(88, 32);
+            this.btnDeleteSubject.Size = new System.Drawing.Size(117, 39);
             this.btnDeleteSubject.TabIndex = 6;
             this.btnDeleteSubject.Text = "Delete";
             this.btnDeleteSubject.UseVisualStyleBackColor = true;
@@ -206,9 +218,10 @@
             // 
             // btnUpdateSubject
             // 
-            this.btnUpdateSubject.Location = new System.Drawing.Point(431, 118);
+            this.btnUpdateSubject.Location = new System.Drawing.Point(336, 252);
+            this.btnUpdateSubject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUpdateSubject.Name = "btnUpdateSubject";
-            this.btnUpdateSubject.Size = new System.Drawing.Size(88, 32);
+            this.btnUpdateSubject.Size = new System.Drawing.Size(117, 39);
             this.btnUpdateSubject.TabIndex = 5;
             this.btnUpdateSubject.Text = "Update";
             this.btnUpdateSubject.UseVisualStyleBackColor = true;
@@ -216,9 +229,10 @@
             // 
             // btnAddSubject
             // 
-            this.btnAddSubject.Location = new System.Drawing.Point(431, 53);
+            this.btnAddSubject.Location = new System.Drawing.Point(179, 253);
+            this.btnAddSubject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddSubject.Name = "btnAddSubject";
-            this.btnAddSubject.Size = new System.Drawing.Size(88, 31);
+            this.btnAddSubject.Size = new System.Drawing.Size(117, 38);
             this.btnAddSubject.TabIndex = 4;
             this.btnAddSubject.Text = "Add";
             this.btnAddSubject.UseVisualStyleBackColor = true;
@@ -227,48 +241,52 @@
             // cmbCourse
             // 
             this.cmbCourse.FormattingEnabled = true;
-            this.cmbCourse.Location = new System.Drawing.Point(227, 57);
+            this.cmbCourse.Location = new System.Drawing.Point(350, 71);
+            this.cmbCourse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbCourse.Name = "cmbCourse";
-            this.cmbCourse.Size = new System.Drawing.Size(145, 27);
+            this.cmbCourse.Size = new System.Drawing.Size(192, 32);
             this.cmbCourse.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Imprint MT Shadow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(69, 53);
+            this.label3.Location = new System.Drawing.Point(67, 65);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(152, 28);
+            this.label3.Size = new System.Drawing.Size(250, 35);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Select Course";
+            this.label3.Text = "Select the Course :";
             // 
             // txtSubjectName
             // 
             this.txtSubjectName.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSubjectName.Location = new System.Drawing.Point(227, 118);
+            this.txtSubjectName.Location = new System.Drawing.Point(413, 140);
+            this.txtSubjectName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSubjectName.Name = "txtSubjectName";
-            this.txtSubjectName.Size = new System.Drawing.Size(145, 32);
+            this.txtSubjectName.Size = new System.Drawing.Size(192, 38);
             this.txtSubjectName.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Imprint MT Shadow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(69, 113);
+            this.label2.Location = new System.Drawing.Point(67, 139);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(158, 28);
+            this.label2.Size = new System.Drawing.Size(338, 35);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Subject Name";
+            this.label2.Text = "Enter the Subject Name :";
             // 
             // CourseSubjectManagementForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(864, 479);
+            this.ClientSize = new System.Drawing.Size(1152, 590);
             this.Controls.Add(this.Subject);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "CourseSubjectManagementForm";
             this.Text = "CourseSubjectManagementForm";
             this.Subject.ResumeLayout(false);

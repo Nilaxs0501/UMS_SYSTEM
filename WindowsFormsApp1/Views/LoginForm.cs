@@ -12,11 +12,11 @@ using WindowsFormsApp1.Models;
 
 namespace WindowsFormsApp1.Views
 {
-    public partial class Login : Form
+    public partial class LoginForm : Form
     {
        
 
-        public Login()
+        public LoginForm()
         {
             InitializeComponent();
            
@@ -57,7 +57,7 @@ namespace WindowsFormsApp1.Views
                 MessageBox.Show($"Welcome {user.UserName} ({user.Role})", "Login Success");
 
                 this.Hide();
-                var Main = new Main(user); 
+                var Main = new MainForm(user); 
                 Main.ShowDialog();
                 this.Close();
             }

@@ -90,11 +90,11 @@
     <Compile Include="Views\CourseSubjectManagementForm.Designer.cs">
       <DependentUpon>CourseSubjectManagementForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\ExamMarkManageMent.cs">
+    <Compile Include="Views\ExamMarkManageMentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\ExamMarkManageMent.Designer.cs">
-      <DependentUpon>ExamMarkManageMent.cs</DependentUpon>
+    <Compile Include="Views\ExamMarkManageMentForm.Designer.cs">
+      <DependentUpon>ExamMarkManageMentForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\LecturerForm.cs">
       <SubType>Form</SubType>
@@ -102,17 +102,17 @@
     <Compile Include="Views\LecturerForm.Designer.cs">
       <DependentUpon>LecturerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Main.cs">
+    <Compile Include="Views\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
+    <Compile Include="Views\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Login.cs">
+    <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="Views\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\StudentForm.cs">
       <SubType>Form</SubType>
@@ -120,11 +120,11 @@
     <Compile Include="Views\StudentForm.Designer.cs">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\TimeTable.cs">
+    <Compile Include="Views\TimeTableForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\TimeTable.Designer.cs">
-      <DependentUpon>TimeTable.cs</DependentUpon>
+    <Compile Include="Views\TimeTableForm.Designer.cs">
+      <DependentUpon>TimeTableForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\UsersForm.cs">
       <SubType>Form</SubType>
@@ -143,14 +143,17 @@
     <EmbeddedResource Include="Views\CourseSubjectManagementForm.resx">
       <DependentUpon>CourseSubjectManagementForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\ExamMarkManageMent.resx">
-      <DependentUpon>ExamMarkManageMent.cs</DependentUpon>
+    <EmbeddedResource Include="Views\ExamMarkManageMentForm.resx">
+      <DependentUpon>ExamMarkManageMentForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
+    <EmbeddedResource Include="Views\LecturerForm.resx">
+      <DependentUpon>LecturerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="Views\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\StudentForm.resx">
       <DependentUpon>StudentForm.cs</DependentUpon>

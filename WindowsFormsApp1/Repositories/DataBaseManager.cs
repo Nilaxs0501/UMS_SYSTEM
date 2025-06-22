@@ -26,9 +26,7 @@ namespace WindowsFormsApp1.Repositories
                         Username TEXT NOT NULL UNIQUE,
                         Password ,
                         Role TEXT NOT NULL CHECK (Role IN ('Admin', 'Staff', 'Lecturer', 'Student'))
-                        
-                        
-
+                      
                     );
 
                     CREATE TABLE IF NOT EXISTS Courses (
@@ -53,6 +51,12 @@ namespace WindowsFormsApp1.Repositories
                     CREATE TABLE IF NOT EXISTS Students (
                         StudentID INTEGER PRIMARY KEY AUTOINCREMENT,
                         StudentName TEXT NOT NULL,
+                        Address TEXT NOT NULL,
+                        Email TEXT NOT NULL,
+                        PhoneNumber TEXT NOT NULL,
+                        Age INTEGER,
+                        Gender TEXT NOT NULL CHECK (Gender IN ('Male', 'Female')),
+                        GroupName TEXT NOT NULL CHECK (GroupName IN ('A', 'B')),
                         CourseID INTEGER NOT NULL,
                         FOREIGN KEY(CourseID) REFERENCES Courses(CourseID)
                     );

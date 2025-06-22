@@ -11,11 +11,11 @@ using WindowsFormsApp1.Models;
 
 namespace WindowsFormsApp1.Views
 {
-    public partial class Main : Form
+    public partial class MainForm : Form
     {
         private Users currentUser;
         public string role_;
-        public Main(Users user)
+        public MainForm(Users user)
         {
             InitializeComponent();
             currentUser = user;
@@ -28,7 +28,7 @@ namespace WindowsFormsApp1.Views
             btnStudents.Visible = role == "Admin" || role == "Staff" || role == "Student";
             btnLecturer.Visible = role == "Admin" || role == "Staff" || role == "Lecturer";
             btnExam.Visible = role == "Student" || role == "Admin" ||  role == "Lecturer";
-            btnMarks.Visible = role == "Lecturer" || role == "Admin" || role == "Staff";
+            btnViewMarks.Visible = role == "Lecturer" || role == "Admin" || role == "Staff";
             btnAttendence.Visible = role == "Admin" || role == "Staff";
             btnTimetable.Visible = true;
             btnChangePassword.Visible = true; 
@@ -70,7 +70,7 @@ namespace WindowsFormsApp1.Views
         private void btnLogout_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var login = new Login();
+            var login = new LoginForm();
             login.ShowDialog();
             this.Close();
         }
@@ -108,6 +108,15 @@ namespace WindowsFormsApp1.Views
             LoadForm(new CourseSubjectManagementForm( role_));
         }
 
+        private void btnExam_Click(object sender, EventArgs e)
+        {
+            LoadForm(new ExamMarkManageMentForm());
+        }
+
+        private void btnStudents_Click(object sender, EventArgs e)
+        {
+            LoadForm(new StudentForm());    
+        }
     }
     
 }
