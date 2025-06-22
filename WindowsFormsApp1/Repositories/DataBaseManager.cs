@@ -44,6 +44,11 @@ namespace WindowsFormsApp1.Repositories
                     CREATE TABLE IF NOT EXISTS Lecturers (
                         LecturerID INTEGER PRIMARY KEY AUTOINCREMENT,
                         LecturerName TEXT NOT NULL,
+                        Address TEXT NOT NULL,
+                        Email TEXT NOT NULL,
+                        PhoneNumber TEXT NOT NULL,
+                        Gender TEXT NOT NULL,
+                        Age INTEGER,
                         SubjectID INTEGER NOT NULL,
                         FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID)
                     );

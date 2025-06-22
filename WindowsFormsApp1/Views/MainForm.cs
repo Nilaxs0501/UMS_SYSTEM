@@ -14,7 +14,7 @@ namespace WindowsFormsApp1.Views
     public partial class MainForm : Form
     {
         private Users currentUser;
-        public string role_;
+        public string role_01;
         public MainForm(Users user)
         {
             InitializeComponent();
@@ -33,7 +33,7 @@ namespace WindowsFormsApp1.Views
             btnTimetable.Visible = true;
             btnChangePassword.Visible = true; 
             btnAddUser.Visible = true;
-            role_=role;
+            role_01=role;
             
         }
 
@@ -96,7 +96,7 @@ namespace WindowsFormsApp1.Views
 
         private void btn_lecturer_Click(object sender, EventArgs e)
         {
-
+            LoadForm(new LecturerForm());
         }
 
         private void btnCourse_Click(object sender, EventArgs e)
@@ -105,7 +105,7 @@ namespace WindowsFormsApp1.Views
             //CourseSubjectManagementForm form = new CourseSubjectManagementForm(role_);
             //LoadForm(form);
             //form.Show();
-            LoadForm(new CourseSubjectManagementForm( role_));
+            LoadForm(new CourseSubjectManagementForm( role_01));
         }
 
         private void btnExam_Click(object sender, EventArgs e)

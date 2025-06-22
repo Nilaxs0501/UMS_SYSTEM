@@ -158,6 +158,9 @@
     <EmbeddedResource Include="Views\StudentForm.resx">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\TimeTableForm.resx">
+      <DependentUpon>TimeTableForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\UsersForm.resx">
       <DependentUpon>UsersForm.cs</DependentUpon>
     </EmbeddedResource>

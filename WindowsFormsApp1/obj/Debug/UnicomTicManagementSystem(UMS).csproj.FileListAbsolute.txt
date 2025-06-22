@@ -111,3 +111,4 @@ C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFo
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ExamMarkManageMentForm.resources
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.MainForm.resources
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.LoginForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.LecturerForm.resources
