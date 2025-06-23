@@ -88,7 +88,8 @@ namespace WindowsFormsApp1.Repositories
                     CREATE TABLE IF NOT EXISTS Rooms (
                         RoomID INTEGER PRIMARY KEY AUTOINCREMENT,
                         RoomName TEXT NOT NULL UNIQUE,
-                        RoomType TEXT NOT NULL
+                        RoomType TEXT NOT NULL CHECK (RoomType IN ('Lab', 'Hall'))
+
                     );
 
                     CREATE TABLE IF NOT EXISTS Timetables (

@@ -21,6 +21,8 @@ namespace WindowsFormsApp1.Views
             InitializeComponent();
             LoadSubjects();
             LoadLecturers();
+            dgvLecturers.SelectionChanged += dgvLecturers_SelectionChanged;
+
         }
 
         private void LoadSubjects()
@@ -90,6 +92,25 @@ namespace WindowsFormsApp1.Views
 
         private void dgvLecturers_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+        //    if (dgvLecturers.SelectedRows.Count > 0)
+        //    {
+        //        var row = dgvLecturers.SelectedRows[0];
+
+        //        selectedLecturerId = Convert.ToInt32(row.Cells["LecturerID"].Value);
+        //        txtName.Text = row.Cells["LecturerName"].Value.ToString();
+        //        txtAddress.Text = row.Cells["Address"].Value.ToString();
+        //        txtEmail.Text = row.Cells["Email"].Value.ToString();
+        //        txtPhone.Text = row.Cells["PhoneNumber"].Value.ToString();
+        //        numAge.Value = Convert.ToInt32(row.Cells["Age"].Value);
+        //        cmbSubject.SelectedValue = Convert.ToInt32(row.Cells["SubjectID"].Value);
+
+        //        string gender = row.Cells["Gender"].Value.ToString();
+        //        rdoMale.Checked = gender == "Male";
+        //        rdoFemale.Checked = gender == "Female";
+        //    }
+        }
+        private void dgvLecturers_SelectionChanged(object sender, EventArgs e)
+        {
             if (dgvLecturers.SelectedRows.Count > 0)
             {
                 var row = dgvLecturers.SelectedRows[0];
@@ -107,7 +128,8 @@ namespace WindowsFormsApp1.Views
                 rdoFemale.Checked = gender == "Female";
             }
         }
-            private Lecturer GetLecturerFromForm()
+
+        private Lecturer GetLecturerFromForm()
             {
                 string gender = rdoMale.Checked ? "Male" : rdoFemale.Checked ? "Female" : "";
 

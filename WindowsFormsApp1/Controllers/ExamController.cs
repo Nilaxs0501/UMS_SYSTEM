@@ -4,6 +4,7 @@ using System.Data.SQLite;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using WindowsFormsApp1.Models;
 using WindowsFormsApp1.Repositories;
 
@@ -13,18 +14,27 @@ namespace WindowsFormsApp1.Controllers
     {
         public static bool AddExam(Exam exam)
         {
-            using (var conn = DBconnection.GetConnection())
+            try
             {
-                string query = "INSERT INTO Exams (ExamName, SubjectID, ExamDate, ExamStartTime,ExamEndTime) VALUES (@name, @subjectId, @date, @StartTime,@EndTime)";
-                using (var cmd = new SQLiteCommand(query, conn))
+                using (var conn = DBconnection.GetConnection())
                 {
-                    cmd.Parameters.AddWithValue("@name", exam.ExamName);
-                    cmd.Parameters.AddWithValue("@subjectId", exam.SubjectID);
-                    cmd.Parameters.AddWithValue("@date", exam.ExamDate);
-                    cmd.Parameters.AddWithValue("@time", exam.ExamStartTime);
-                    cmd.Parameters.AddWithValue("@time", exam.ExamEndTime);
-                    return cmd.ExecuteNonQuery() > 0;
+                    string query = "INSERT INTO Exams (ExamName, SubjectID, ExamDate, ExamStartTime, ExamEndTime) " +
+                                   "VALUES (@name, @subjectId, @date, @startTime, @endTime)";
+                    using (var cmd = new SQLiteCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@name", exam.ExamName);
+                        cmd.Parameters.AddWithValue("@subjectId", exam.SubjectID);
+                        cmd.Parameters.AddWithValue("@date", exam.ExamDate);
+                        cmd.Parameters.AddWithValue("@startTime", exam.ExamStartTime);
+                        cmd.Parameters.AddWithValue("@endTime", exam.ExamEndTime);
+                        return cmd.ExecuteNonQuery() > 0;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("AddExam Error: " + ex.Message);
+                return false;
             }
         }
 
@@ -56,19 +66,28 @@ namespace WindowsFormsApp1.Controllers
 
         public static bool UpdateExam(Exam exam)
         {
-            using (var conn = DBconnection.GetConnection())
+            try
             {
-                string query = "UPDATE Exams SET ExamName=@name, SubjectID=@subjectId, ExamDate=@date, ExamStartTime=@StartTime ,ExamEndTime=@EndTime  WHERE ExamID=@id";
-                using (var cmd = new SQLiteCommand(query, conn))
+                using (var conn = DBconnection.GetConnection())
                 {
-                    cmd.Parameters.AddWithValue("@name", exam.ExamName);
-                    cmd.Parameters.AddWithValue("@subjectId", exam.SubjectID);
-                    cmd.Parameters.AddWithValue("@date", exam.ExamDate);
-                    cmd.Parameters.AddWithValue("@StartTime", exam.ExamStartTime);
-                    cmd.Parameters.AddWithValue("@EndTime", exam.ExamEndTime);
-                    cmd.Parameters.AddWithValue("@id", exam.ExamID);
-                    return cmd.ExecuteNonQuery() > 0;
+                    string query = "UPDATE Exams SET ExamName=@name, SubjectID=@subjectId, ExamDate=@date, " +
+                                   "ExamStartTime=@startTime, ExamEndTime=@endTime WHERE ExamID=@id";
+                    using (var cmd = new SQLiteCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@name", exam.ExamName);
+                        cmd.Parameters.AddWithValue("@subjectId", exam.SubjectID);
+                        cmd.Parameters.AddWithValue("@date", exam.ExamDate);
+                        cmd.Parameters.AddWithValue("@startTime", exam.ExamStartTime);
+                        cmd.Parameters.AddWithValue("@endTime", exam.ExamEndTime);
+                        cmd.Parameters.AddWithValue("@id", exam.ExamID);
+                        return cmd.ExecuteNonQuery() > 0;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("UpdateExam Error: " + ex.Message);
+                return false;
             }
         }
 

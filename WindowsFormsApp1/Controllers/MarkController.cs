@@ -4,6 +4,7 @@ using System.Data.SQLite;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using WindowsFormsApp1.Models;
 using WindowsFormsApp1.Repositories;
 
@@ -15,16 +16,24 @@ namespace WindowsFormsApp1.Controllers
 
         public static bool AddMark(Mark mark)
         {
-            using (var conn = DBconnection.GetConnection())
+            try
             {
-                string query = "INSERT INTO Marks (StudentID, ExamID, Score) VALUES (@studentId, @examId, @score)";
-                using (var cmd = new SQLiteCommand(query, conn))
+                using (var conn = DBconnection.GetConnection())
                 {
-                    cmd.Parameters.AddWithValue("@studentId", mark.StudentID);
-                    cmd.Parameters.AddWithValue("@examId", mark.ExamID);
-                    cmd.Parameters.AddWithValue("@score", mark.Score);
-                    return cmd.ExecuteNonQuery() > 0;
+                    string query = "INSERT INTO Marks (StudentID, ExamID, Score) VALUES (@studentId, @examId, @score)";
+                    using (var cmd = new SQLiteCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@studentId", mark.StudentID);
+                        cmd.Parameters.AddWithValue("@examId", mark.ExamID);
+                        cmd.Parameters.AddWithValue("@score", mark.Score);
+                        return cmd.ExecuteNonQuery() > 0;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("AddMark Error: " + ex.Message);
+                return false;
             }
         }
 

@@ -22,6 +22,8 @@ namespace WindowsFormsApp1.Views
             InitializeComponent();
             LoadCourseComboBox();
             LoadStudentList();
+            dgvStudents.SelectionChanged += dgvStudents_SelectionChanged;
+
         }
         private void LoadCourseComboBox()
         {
@@ -90,6 +92,29 @@ namespace WindowsFormsApp1.Views
 
         private void dgvStudents_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            //if (dgvStudents.SelectedRows.Count > 0)
+            //{
+            //    var row = dgvStudents.SelectedRows[0];
+
+            //    selectedStudentId = Convert.ToInt32(row.Cells["StudentID"].Value);
+            //    txtName.Text = row.Cells["StudentName"].Value.ToString();
+            //    txtAddress.Text = row.Cells["Address"].Value.ToString();
+            //    txtEmail.Text = row.Cells["Email"].Value.ToString();
+            //    txtPhone.Text = row.Cells["PhoneNumber"].Value.ToString();
+            //    numAge.Value = Convert.ToInt32(row.Cells["Age"].Value);
+            //    cmbCourse.SelectedValue = Convert.ToInt32(row.Cells["CourseID"].Value);
+
+            //    string gender = row.Cells["Gender"].Value.ToString();
+            //    rdoMale.Checked = gender == "Male";
+            //    rdoFemale.Checked = gender == "Female";
+
+            //    string group = row.Cells["GroupName"].Value.ToString();
+            //    rdoGroupA.Checked = group == "A";
+            //    rdoGroupB.Checked = group == "B";
+            //}
+        }
+        private void dgvStudents_SelectionChanged(object sender, EventArgs e)
+        {
             if (dgvStudents.SelectedRows.Count > 0)
             {
                 var row = dgvStudents.SelectedRows[0];
@@ -111,6 +136,8 @@ namespace WindowsFormsApp1.Views
                 rdoGroupB.Checked = group == "B";
             }
         }
+
+
         private Student GetStudentFromForm()
         {
             string gender = rdoMale.Checked ? "Male" : rdoFemale.Checked ? "Female" : "";

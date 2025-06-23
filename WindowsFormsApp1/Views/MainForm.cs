@@ -117,6 +117,11 @@ namespace WindowsFormsApp1.Views
         {
             LoadForm(new StudentForm());    
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LoadForm(new RoomManageForm());
+        }
     }
     
 }
