@@ -80,7 +80,7 @@ namespace WindowsFormsApp1.Views
             {
                 ExamName = txtExamName.Text,
                 SubjectID = Convert.ToInt32(cmbSubject.SelectedValue),
-                ExamDate = dtpExamDate.Value.ToString("yyyy-MM-dd"),
+                ExamDate = dtpExamDate.Value.ToString("dd-MM-yyyy"),
                 ExamStartTime = dtpSTime.Value.ToString("HH:mm"),
                 ExamEndTime = dtpeETime.Value.ToString("HH:mm")
             };

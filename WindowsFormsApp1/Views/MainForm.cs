@@ -15,6 +15,8 @@ namespace WindowsFormsApp1.Views
     {
         private Users currentUser;
         public string role_01;
+        public string loggedInStudentId_01;
+
         public MainForm(Users user)
         {
             InitializeComponent();
@@ -33,7 +35,7 @@ namespace WindowsFormsApp1.Views
             btnTimetable.Visible = true;
             btnChangePassword.Visible = true; 
             btnAddUser.Visible = true;
-            role_01=role;
+            role_01 = role;
             
         }
 
@@ -127,6 +129,19 @@ namespace WindowsFormsApp1.Views
         {
             LoadForm(new TimeTableForm());
         }
+
+        private void btnViewAttendance_Click(object sender, EventArgs e)
+        {
+           
+
+            
+        }
+
+        private void btnAttendence_Click(object sender, EventArgs e)
+        {
+            LoadForm(new AttendanceForm());
+        }
     }
-    
 }
+    
+

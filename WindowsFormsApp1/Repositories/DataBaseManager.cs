@@ -103,6 +103,16 @@ namespace WindowsFormsApp1.Repositories
                         FOREIGN KEY(RoomID) REFERENCES Rooms(RoomID)
                         FOREIGN KEY (LecturerID) REFERENCES Lecturers(LecturerID)
                     );
+                    CREATE TABLE IF NOT EXISTS Attendance (
+                        AttendanceID INTEGER PRIMARY KEY AUTOINCREMENT,
+                        StudentID INTEGER NOT NULL,
+                        SubjectID INTEGER NOT NULL,
+                        Date TEXT NOT NULL,
+                        Status TEXT CHECK (Status IN ('Present', 'Absent', 'Late', 'Excused')),
+                        UNIQUE(StudentID, SubjectID, Date),
+                        FOREIGN KEY(StudentID) REFERENCES Students(StudentID),
+                        FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID)
+                    );
 
                         
 
