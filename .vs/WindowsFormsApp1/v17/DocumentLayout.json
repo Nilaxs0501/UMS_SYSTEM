@@ -1,50 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Z:\\New folder (4)\\UMS_SYSTEM\\",
+  "WorkspaceRootPath": "Z:\\UMS\\UMS_SYSTEM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\new folder (4)\\ums_system\\windowsformsapp1\\views\\exammarkmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\exammarkmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\views\\timetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\timetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\new folder (4)\\ums_system\\windowsformsapp1\\views\\exammarkmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\exammarkmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\controllers\\timetablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\timetablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\new folder (4)\\ums_system\\windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\views\\timetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\timetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New folder (4)\\UMS_SYSTEM\\windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\views\\coursesubjectmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\coursesubjectmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\new folder (4)\\ums_system\\windowsformsapp1\\views\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\new folder (4)\\ums_system\\windowsformsapp1\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\new folder (4)\\ums_system\\windowsformsapp1\\views\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\lecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\new folder (4)\\ums_system\\windowsformsapp1\\views\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\views\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New folder (4)\\UMS_SYSTEM\\windowsformsapp1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New folder (4)\\UMS_SYSTEM\\windowsformsapp1\\views\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\views\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New folder (4)\\UMS_SYSTEM\\windowsformsapp1\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\repositories\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\repositories\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\ums\\ums_system\\windowsformsapp1\\models\\timetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\models\\timetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,143 +62,173 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExamMarkManageMentForm.cs",
-              "DocumentMoniker": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\ExamMarkManageMentForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\ExamMarkManageMentForm.cs",
-              "ToolTip": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\ExamMarkManageMentForm.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\ExamMarkManageMentForm.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowDMAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "CourseSubjectManagementForm.cs",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T08:37:14.342Z",
+              "WhenOpened": "2025-06-23T11:18:40.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TimeTableForm.cs",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\TimeTableForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\TimeTableForm.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\TimeTableForm.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Views\\TimeTableForm.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAkwIQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:20:26.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ExamMarkManageMentForm.cs [Design]",
-              "DocumentMoniker": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\ExamMarkManageMentForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\ExamMarkManageMentForm.cs",
-              "ToolTip": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\ExamMarkManageMentForm.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\ExamMarkManageMentForm.cs [Design]",
+              "Title": "TimeTableController.cs",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\TimeTableController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\TimeTableController.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\TimeTableController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\TimeTableController.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAgwIQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T08:37:11.295Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\MainForm.cs",
-              "ToolTip": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\MainForm.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAqwHAAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T08:37:00.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LecturerController.cs",
-              "DocumentMoniker": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\LecturerController.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\LecturerController.cs",
-              "ToolTip": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\LecturerController.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\LecturerController.cs",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAiwGQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T08:28:05.536Z",
+              "WhenOpened": "2025-06-23T09:28:23.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LecturerForm.cs",
-              "DocumentMoniker": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\LecturerForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\LecturerForm.cs",
-              "ToolTip": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\LecturerForm.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\LecturerForm.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBgAAAAAAAAA",
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\SubjectController.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\SubjectController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwv0wAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T08:26:56.748Z",
+              "WhenOpened": "2025-06-23T11:22:52.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAEsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T11:18:34.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LecturerForm.cs [Design]",
-              "DocumentMoniker": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\LecturerForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\LecturerForm.cs",
-              "ToolTip": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\LecturerForm.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\LecturerForm.cs [Design]",
+              "Title": "StudentForm.cs",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\StudentForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\StudentForm.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\StudentForm.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Views\\StudentForm.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T08:26:53.764Z",
+              "WhenOpened": "2025-06-23T11:06:17.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentForm.cs [Design]",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\StudentForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\StudentForm.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\StudentForm.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Views\\StudentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T11:06:15.158Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "StudentController.cs",
-              "DocumentMoniker": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\StudentController.cs",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\StudentController.cs",
-              "ToolTip": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\StudentController.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\StudentController.cs",
               "RelativeToolTip": "WindowsFormsApp1\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAqwLsAAAABAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T07:08:38.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StudentForm.cs",
-              "DocumentMoniker": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\StudentForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\StudentForm.cs",
-              "ToolTip": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\StudentForm.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\StudentForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T07:06:32.441Z",
+              "WhenOpened": "2025-06-23T11:06:08.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "StudentForm.cs [Design]",
-              "DocumentMoniker": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\StudentForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\StudentForm.cs",
-              "ToolTip": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\StudentForm.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\StudentForm.cs [Design]",
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\MainForm.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Views\\MainForm.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAYwFIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T07:06:23.704Z"
+              "WhenOpened": "2025-06-23T11:02:15.446Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "RoomController.cs",
-              "DocumentMoniker": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\RoomController.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\RoomController.cs",
-              "ToolTip": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\RoomController.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\RoomController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAQwFgAAAAJAAAAAAAAAA==",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\MainForm.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Views\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T04:27:30.721Z"
+              "WhenOpened": "2025-06-23T10:58:25.345Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\MainForm.cs",
-              "ToolTip": "Z:\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\MainForm.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "TimeTableForm.cs [Design]",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\TimeTableForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\TimeTableForm.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\TimeTableForm.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Views\\TimeTableForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:30:20.852Z",
+              "WhenOpened": "2025-06-23T09:28:19.267Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataBaseManager.cs",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAgwGcAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:05:00.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TimeTable.cs",
+              "DocumentMoniker": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Models\\TimeTable.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\TimeTable.cs",
+              "ToolTip": "Z:\\UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Models\\TimeTable.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Models\\TimeTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T09:28:28.998Z",
+              "EditorCaption": ""
             }
           ]
         }

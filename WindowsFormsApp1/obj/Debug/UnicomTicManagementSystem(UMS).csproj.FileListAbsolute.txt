@@ -134,3 +134,25 @@ Z:\New folder (4)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTi.7E2AEBE3.Up2Dat
 Z:\New folder (4)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 Z:\New folder (4)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 Z:\New folder (4)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.RoomManageForm.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.AssemblyReference.cache
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ChangePasswordForm.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.CourseSubjectManagementForm.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ExamMarkManageMentForm.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.LecturerForm.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.MainForm.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.LoginForm.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.RoomManageForm.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.StudentForm.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.TimeTableForm.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.UsersForm.resources
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.GenerateResource.cache
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.CoreCompileInputs.cache
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTi.7E2AEBE3.Up2Date
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+Z:\UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1.Models
 {
-    internal class TimeTable
+    internal class Timetable
     {
         public int TimetableID { get; set; }
         public int SubjectID { get; set; }
-        public int RoomId { get; set; }
+        public int RoomID { get; set; }
         public string TimeSlot { get; set; }
+        public string GroupName { get; set; }   
+        public int LecturerID { get; set; }    
 
     }
 }

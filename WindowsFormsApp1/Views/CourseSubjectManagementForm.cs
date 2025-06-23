@@ -27,6 +27,9 @@ namespace WindowsFormsApp1.Views
             LoadSubjects();
             LoadCourseDropdown();
             SetRolePermissions();
+            dataGridViewCourse.CellClick += dataGridViewCourse_CellContentClick;
+            dataGridViewSubject.CellClick += dataGridViewSubject_CellContentClick;
+
         }
         private void SetRolePermissions()
         {

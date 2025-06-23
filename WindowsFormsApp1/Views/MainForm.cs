@@ -28,7 +28,7 @@ namespace WindowsFormsApp1.Views
             btnStudents.Visible = role == "Admin" || role == "Staff" || role == "Student";
             btnLecturer.Visible = role == "Admin" || role == "Staff" || role == "Lecturer";
             btnExam.Visible = role == "Student" || role == "Admin" ||  role == "Lecturer";
-            btnViewMarks.Visible = role == "Lecturer" || role == "Admin" || role == "Staff";
+            btnRoom.Visible = role == "Lecturer" || role == "Admin" || role == "Staff";
             btnAttendence.Visible = role == "Admin" || role == "Staff";
             btnTimetable.Visible = true;
             btnChangePassword.Visible = true; 
@@ -121,6 +121,11 @@ namespace WindowsFormsApp1.Views
         private void button1_Click(object sender, EventArgs e)
         {
             LoadForm(new RoomManageForm());
+        }
+
+        private void btnTimetable_Click(object sender, EventArgs e)
+        {
+            LoadForm(new TimeTableForm());
         }
     }
     

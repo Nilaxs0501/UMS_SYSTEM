@@ -97,8 +97,11 @@ namespace WindowsFormsApp1.Repositories
                         SubjectID INTEGER NOT NULL,
                         TimeSlot TEXT NOT NULL,
                         RoomID INTEGER NOT NULL,
+                        GroupName TEXT NOT NULL,
+                        LecturerID INTEGER NOT NULL,
                         FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID),
                         FOREIGN KEY(RoomID) REFERENCES Rooms(RoomID)
+                        FOREIGN KEY (LecturerID) REFERENCES Lecturers(LecturerID)
                     );
 
                         
