@@ -144,6 +144,38 @@ namespace WindowsFormsApp1.Controllers
 
         }
 
+        public static Users GetUserByIdOrUsername(string input)
+        {
+            using (var conn = DBconnection.GetConnection())
+            {
+                string query = "SELECT * FROM Users WHERE UserID = @input OR Username = @input";
+                using (var cmd = new SQLiteCommand(query, conn))
+                {
+                    // Try parsing input to integer if it's UserID
+                    if (int.TryParse(input, out int id))
+                        cmd.Parameters.AddWithValue("@input", id);
+                    else
+                        cmd.Parameters.AddWithValue("@input", input);
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            return new Users
+                            {
+                                UserID = Convert.ToInt32(reader["UserID"]),
+                                Name = reader["Name"].ToString(),
+                                UserName = reader["Username"].ToString(),
+                                Role = reader["Role"].ToString(),
+                                Address = reader["Address"].ToString()
+                                // Password can be excluded for security
+                            };
+                        }
+                    }
+                }
+            }
+            return null;
+        }
 
 
     }

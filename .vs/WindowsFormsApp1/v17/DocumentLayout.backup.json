@@ -1,53 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\",
+  "WorkspaceRootPath": "Z:\\New UMS\\UMS_SYSTEM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|c:\\users\\dell\\desktop\\new folder (4)\\ums_system\\windowsformsapp1\\views\\viewattendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\viewattendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|c:\\users\\dell\\desktop\\new folder (4)\\ums_system\\windowsformsapp1\\views\\viewattendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\viewattendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\windowsformsapp1\\views\\coursesubjectmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\coursesubjectmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|c:\\users\\dell\\desktop\\new folder (4)\\ums_system\\windowsformsapp1\\views\\coursesubjectmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\coursesubjectmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New UMS\\UMS_SYSTEM\\windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|c:\\users\\dell\\desktop\\new folder (4)\\ums_system\\windowsformsapp1\\views\\attendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\new ums\\ums_system\\windowsformsapp1\\views\\myprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\myprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New UMS\\UMS_SYSTEM\\windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\new ums\\ums_system\\windowsformsapp1\\views\\myprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\myprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\new ums\\ums_system\\windowsformsapp1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|z:\\new ums\\ums_system\\windowsformsapp1\\views\\viewattendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\viewattendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New UMS\\UMS_SYSTEM\\windowsformsapp1\\views\\viewattendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\viewattendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New UMS\\UMS_SYSTEM\\windowsformsapp1\\views\\coursesubjectmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\coursesubjectmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New UMS\\UMS_SYSTEM\\windowsformsapp1\\views\\coursesubjectmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\coursesubjectmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New UMS\\UMS_SYSTEM\\windowsformsapp1\\views\\attendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\attendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|c:\\users\\dell\\desktop\\new folder (4)\\ums_system\\windowsformsapp1\\controllers\\attendencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New UMS\\UMS_SYSTEM\\windowsformsapp1\\controllers\\attendencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\attendencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|c:\\users\\dell\\desktop\\new folder (4)\\ums_system\\windowsformsapp1\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New UMS\\UMS_SYSTEM\\windowsformsapp1\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\windowsformsapp1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New UMS\\UMS_SYSTEM\\windowsformsapp1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|c:\\users\\dell\\desktop\\new folder (4)\\ums_system\\windowsformsapp1\\views\\attendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New UMS\\UMS_SYSTEM\\windowsformsapp1\\views\\attendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\views\\attendanceform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\windowsformsapp1\\repositories\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|Z:\\New UMS\\UMS_SYSTEM\\windowsformsapp1\\repositories\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9E9C271-65E0-442B-B7D4-60D9EFE7BB48}|WindowsFormsApp1\\UnicomTicManagementSystem(UMS).csproj|solutionrelative:windowsformsapp1\\repositories\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,23 +70,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs [Design]",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\Views\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T10:58:25.345Z",
@@ -83,151 +87,169 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyProfileForm.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MyProfileForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\MyProfileForm.cs",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MyProfileForm.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Views\\MyProfileForm.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:40:40.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\UsersController.cs",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAgwK4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:25:04.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\MainForm.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MainForm.cs",
               "RelativeToolTip": "WindowsFormsApp1\\Views\\MainForm.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAApwIYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAADwv5YAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T11:02:15.446Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CourseSubjectManagementForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "MyProfileForm.cs [Design]",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MyProfileForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\MyProfileForm.cs",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\MyProfileForm.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Views\\MyProfileForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:29:31.142Z",
+              "WhenOpened": "2025-06-24T04:24:06.493Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "CourseSubjectManagementForm.cs [Design]",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T16:29:31.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ViewAttendanceForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\ViewAttendanceForm.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\ViewAttendanceForm.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\ViewAttendanceForm.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\ViewAttendanceForm.cs",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\ViewAttendanceForm.cs",
               "RelativeToolTip": "WindowsFormsApp1\\Views\\ViewAttendanceForm.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAArwBIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T16:14:38.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ViewAttendanceForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\ViewAttendanceForm.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\ViewAttendanceForm.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\ViewAttendanceForm.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\ViewAttendanceForm.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\ViewAttendanceForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T16:12:15.887Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AttendanceForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\AttendanceForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\AttendanceForm.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\AttendanceForm.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\AttendanceForm.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAQwHoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:59:58.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AttendenceController.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\AttendenceController.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\AttendenceController.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\AttendenceController.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\AttendenceController.cs",
-              "ViewState": "AgIAALEAAAAAAAAAAAAuwMYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:56:43.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AttendanceForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\AttendanceForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\AttendanceForm.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\AttendanceForm.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\AttendanceForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:37:15.258Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Attendance.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Models\\Attendance.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\Attendance.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Models\\Attendance.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Models\\Attendance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T15:15:39.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CourseSubjectManagementForm.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:18:40.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T16:12:15.887Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAANAAAAAAAAAA==",
+              "Title": "AttendanceForm.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\AttendanceForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\AttendanceForm.cs",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\AttendanceForm.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Views\\AttendanceForm.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAQwHoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:18:34.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T15:59:58.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AttendenceController.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\AttendenceController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\AttendenceController.cs",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\AttendenceController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\AttendenceController.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAuwMYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:56:43.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AttendanceForm.cs [Design]",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\AttendanceForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\AttendanceForm.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\AttendanceForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:37:15.258Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Models\\Attendance.cs",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Models\\Attendance.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:15:39.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseSubjectManagementForm.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Views\\CourseSubjectManagementForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T11:18:40.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T11:18:34.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "DataBaseManager.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
+              "DocumentMoniker": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\New folder (4)\\UMS_SYSTEM\\WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
+              "ToolTip": "Z:\\New UMS\\UMS_SYSTEM\\WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
               "RelativeToolTip": "WindowsFormsApp1\\Repositories\\DataBaseManager.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAgwHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T10:05:00.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T10:05:00.07Z"
             }
           ]
         }

@@ -40,6 +40,7 @@
     <Reference Include="System.Data.SQLite, Version=1.0.119.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\lib\net46\System.Data.SQLite.dll</HintPath>
     </Reference>
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -123,6 +124,12 @@
     <Compile Include="Views\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\MyProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MyProfileForm.Designer.cs">
+      <DependentUpon>MyProfileForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\RoomManageForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +186,9 @@
     <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\MyProfileForm.resx">
+      <DependentUpon>MyProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\RoomManageForm.resx">
       <DependentUpon>RoomManageForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -231,6 +241,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ChatGPT Image Jun 19, 2025, 07_45_22 PM1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile login-bro.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />

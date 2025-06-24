@@ -33,8 +33,9 @@ namespace WindowsFormsApp1.Views
             btnRoom.Visible = role == "Lecturer" || role == "Admin" || role == "Staff";
             btnAttendence.Visible = role == "Admin" || role == "Staff";
             btnTimetable.Visible = true;
-            btnChangePassword.Visible = true; 
-            btnAddUser.Visible = true;
+            btnChangePassword.Visible = true;
+            btnAddUser.Visible = role == "Admin";
+            btnCourse.Visible = role == "Admin";
             role_01 = role;
             
         }
@@ -140,6 +141,11 @@ namespace WindowsFormsApp1.Views
         private void btnAttendence_Click(object sender, EventArgs e)
         {
             LoadForm(new AttendanceForm());
+        }
+
+        private void btnProfile_Click(object sender, EventArgs e)
+        {
+            LoadForm(new MyProfileForm());
         }
     }
 }

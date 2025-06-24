@@ -181,3 +181,28 @@ C:\Users\Dell\Desktop\New folder (4)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\Windo
 C:\Users\Dell\Desktop\New folder (4)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Dell\Desktop\New folder (4)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.AttendanceForm.resources
 C:\Users\Dell\Desktop\New folder (4)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ViewAttendanceForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.AssemblyReference.cache
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.AttendanceForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ChangePasswordForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.CourseSubjectManagementForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ExamMarkManageMentForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.LecturerForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.MainForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.LoginForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.RoomManageForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.StudentForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.TimeTableForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.UsersForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ViewAttendanceForm.resources
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.GenerateResource.cache
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.CoreCompileInputs.cache
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTi.7E2AEBE3.Up2Date
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.MyProfileForm.resources
