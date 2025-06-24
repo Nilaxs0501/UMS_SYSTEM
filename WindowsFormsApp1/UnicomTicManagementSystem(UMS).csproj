@@ -154,12 +154,6 @@
     <Compile Include="Views\UsersForm.Designer.cs">
       <DependentUpon>UsersForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\ViewAttendanceForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\ViewAttendanceForm.Designer.cs">
-      <DependentUpon>ViewAttendanceForm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -200,9 +194,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\UsersForm.resx">
       <DependentUpon>UsersForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\ViewAttendanceForm.resx">
-      <DependentUpon>ViewAttendanceForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

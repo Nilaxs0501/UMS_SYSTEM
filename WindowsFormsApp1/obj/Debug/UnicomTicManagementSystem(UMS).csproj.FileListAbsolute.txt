@@ -206,3 +206,7 @@ Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTi.7E2AEBE3.Up2Date
 Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 Z:\New UMS\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.MyProfileForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.AttendanceForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.MyProfileForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.RoomManageForm.resources
+C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.TimeTableForm.resources
