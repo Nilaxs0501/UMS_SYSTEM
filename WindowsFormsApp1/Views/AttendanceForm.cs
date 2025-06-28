@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.Controllers;
 using WindowsFormsApp1.Models;
-using static WindowsFormsApp1.Controllers.AttendenceController;
 
 namespace WindowsFormsApp1.Views
 {
@@ -22,6 +21,9 @@ namespace WindowsFormsApp1.Views
             InitializeComponent();
             LoadSubjects();
             LoadStatuses();
+            dgvAttendance.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvAttendance.CellClick += dgvAttendance_CellContentClick;
+
         }
         private void LoadSubjects()
         {
@@ -30,7 +32,6 @@ namespace WindowsFormsApp1.Views
             cmbSubject.ValueMember = "SubjectID";
             cmbSubject.SelectedIndex = -1;
         }
-
         private void LoadStatuses()
         {
             cmbStatus.Items.Clear();
@@ -49,25 +50,29 @@ namespace WindowsFormsApp1.Views
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
-
             if (cmbSubject.SelectedIndex == -1)
             {
                 MessageBox.Show("Please select a subject.");
                 return;
             }
 
-            string selectedDate = dtpDate.Value.ToString("yyyy-MM-dd");
-            int subjectId = (int)cmbSubject.SelectedValue;
+            int subjectId = Convert.ToInt32(cmbSubject.SelectedValue);
+            string date = dtpDate.Value.ToString("yyyy-MM-dd");
 
-            dgvAttendance.DataSource = AttendanceController.GetAttendanceBySubjectAndDate(subjectId, selectedDate);
+            dgvAttendance.DataSource = AttendanceController.GetAttendanceBySubjectAndDate(subjectId, date);
             dgvAttendance.ClearSelection();
+
+            selectedAttendanceId = -1;
+            selectedStudentId = -1;
+            txtStudentName.Clear();
+            cmbStatus.SelectedIndex = -1;
         }
 
         private void dgvAttendance_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0)
+            if (e.RowIndex >= 0 && dgvAttendance.Rows.Count > e.RowIndex)
             {
-                DataGridViewRow row = dgvAttendance.Rows[e.RowIndex];
+                var row = dgvAttendance.Rows[e.RowIndex];
 
                 selectedAttendanceId = Convert.ToInt32(row.Cells["AttendanceID"].Value);
                 selectedStudentId = Convert.ToInt32(row.Cells["StudentID"].Value);
@@ -80,14 +85,14 @@ namespace WindowsFormsApp1.Views
         {
             if (cmbSubject.SelectedIndex == -1 || cmbStatus.SelectedIndex == -1 || selectedStudentId == -1)
             {
-                MessageBox.Show("Please select a subject, student, and status.");
+                MessageBox.Show("Please load and select a student, subject, and status.");
                 return;
             }
 
             var att = new Attendance
             {
                 StudentID = selectedStudentId,
-                SubjectID = (int)cmbSubject.SelectedValue,
+                SubjectID = Convert.ToInt32(cmbSubject.SelectedValue),
                 Date = dtpDate.Value.ToString("yyyy-MM-dd"),
                 Status = cmbStatus.Text
             };
@@ -95,8 +100,7 @@ namespace WindowsFormsApp1.Views
             if (AttendanceController.AddAttendance(att))
             {
                 MessageBox.Show("Attendance added.");
-                btnLoad_Click(null, null); // Refresh
-                ClearSelection();
+                btnLoad_Click(null, null); // refresh
             }
         }
 
@@ -104,7 +108,7 @@ namespace WindowsFormsApp1.Views
         {
             if (selectedAttendanceId == -1)
             {
-                MessageBox.Show("Please select an attendance record to update.");
+                MessageBox.Show("Please select a record to update.");
                 return;
             }
 
@@ -117,8 +121,7 @@ namespace WindowsFormsApp1.Views
             if (AttendanceController.UpdateAttendance(att))
             {
                 MessageBox.Show("Attendance updated.");
-                btnLoad_Click(null, null); // Refresh
-                ClearSelection();
+                btnLoad_Click(null, null);
             }
         }
 
@@ -128,27 +131,20 @@ namespace WindowsFormsApp1.Views
         {
             if (selectedAttendanceId == -1)
             {
-                MessageBox.Show("Please select an attendance record to delete.");
+                MessageBox.Show("Please select a record to delete.");
                 return;
             }
 
-            if (MessageBox.Show("Are you sure?", "Confirm", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            var confirm = MessageBox.Show("Are you sure to delete?", "Confirm", MessageBoxButtons.YesNo);
+            if (confirm == DialogResult.Yes)
             {
                 if (AttendanceController.DeleteAttendance(selectedAttendanceId))
                 {
                     MessageBox.Show("Attendance deleted.");
                     btnLoad_Click(null, null);
-                    ClearSelection();
                 }
             }
-        }
-        private void ClearSelection()
-        {
-            selectedAttendanceId = -1;
-            selectedStudentId = -1;
-            txtStudentName.Clear();
-            cmbStatus.SelectedIndex = -1;
-            dgvAttendance.ClearSelection();
+
         }
     }
 }

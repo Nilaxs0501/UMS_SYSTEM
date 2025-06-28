@@ -38,8 +38,6 @@ C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\Windo
 C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
 C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.AssemblyReference.cache
 C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
-C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.Main.resources
-C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.Login.resources
 C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.UsersForm.resources
 C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.GenerateResource.cache
 C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\UnicomTicManagementSystem(UMS).csproj.CoreCompileInputs.cache
@@ -48,7 +46,6 @@ C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\Windo
 C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config
-C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.SubMain.resources
 C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ChangePasswordForm.resources
 Z:\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 Z:\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
@@ -210,3 +207,13 @@ C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFo
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.MyProfileForm.resources
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.RoomManageForm.resources
 C:\Users\Dell\Desktop\New folder\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.TimeTableForm.resources
+C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.AttendanceForm.resources
+C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.CourseSubjectManagementForm.resources
+C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.ExamMarkManageMentForm.resources
+C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.LecturerForm.resources
+C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.MainForm.resources
+C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.LoginForm.resources
+C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.MyProfileForm.resources
+C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.RoomManageForm.resources
+C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.StudentForm.resources
+C:\Users\Dell\Desktop\New folder (2)\UMS_SYSTEM\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Views.TimeTableForm.resources
